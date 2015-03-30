@@ -1,0 +1,39 @@
+@mixin hearticon($heartsize: 1em, $color: currentColor){
+  $heartsize-half: $heartsize / 2;
+  $heartsize-extended: $heartsize + ($heartsize * 0.2);
+  $heartsize-offset: $heartsize-extended / 2;
+  $heartsize-cuty: $heartsize-offset;
+  $heartsize-cutx: $heartsize-offset;
+  position: relative;
+  display: inline-block;
+  width: $heartsize;
+  height: $heartsize;
+  box-sizing: border-box;
+  margin: 0.5em;
+  border: none;
+  background-color: $color;
+  font-size: $heartsize;
+  vertical-align: middle;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  &:before,
+  &:after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: inherit;
+  }
+  &:before{
+    width: $heartsize;
+    height: $heartsize-extended;
+    top: -$heartsize-offset;
+    left: 0;
+  }
+  &:after{
+    width: $heartsize-extended;
+    height: $heartsize;
+    bottom: 0;
+    right: -$heartsize-offset;
+  }
+}

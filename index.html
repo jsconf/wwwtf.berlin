@@ -1,0 +1,52 @@
+---
+layout: default
+title: wwwtf.berlin
+---
+
+<p class="intro">
+  A full week of events for and by the WebTech community in Berlin. <a href="/welcome/">Welcome</a>.
+</p>
+
+{% assign previousDate = site.date %}
+
+<ol class="eventlist">
+  {% for post in site.posts reversed %}
+    <li class="eventlist-element">
+      {% if post.href %}
+        <a class="eventlist-element__link" href="{{ post.href }}">
+      {% else %}
+        <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
+      {% endif %}
+      {% if post.date == previousDate %}
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date eventlist-element--is-hidden">
+          <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
+          <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
+        </time>
+      {% else %}
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
+          <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
+          <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
+        </time>
+      {% endif %}
+      {% assign previousDate = post.date %}
+          <div class="eventlist-elemnt-infowrap">
+            <span class="eventlist-element__title">{{ post.title }}</span>
+            <span class="eventlist-element__venue">{{ post.venue }}</span><span class="eventlist-element__time">{{ post.time }}</span><span class="eventlist-element__ticket">{{ post.ticket }}</span>
+          </div>
+          <span class="eventlist-element__bullets"></span>
+        </a>
+    </li>
+  {% endfor %}
+  <li class="eventlist-element">
+    <a class="eventlist-element__link" href="/byoe">
+      <time class="eventlist-element__date">
+        <span class="eventlist-element__date_day">?</span>
+      </time>
+      <div class="eventlist-elemnt-infowrap">
+        <span class="eventlist-element__title">Bring Your Own Event</span>
+      </div>
+      <span class="eventlist-element__bullets"></span>
+    </a>
+  </li>
+</ol>
+<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

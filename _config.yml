@@ -1,0 +1,10 @@
+# Site settings
+title: wwwtf.berlin – Berlin, September 2015
+description: "wwwtf.berlin is a collection of fine events around the web, happening in Berlin in September 2015"
+baseurl: ""
+url: "http://wwwtf.berlin"
+exclude:
+  - README.md
+# Build settings
+markdown: kramdown
+permalink: pretty

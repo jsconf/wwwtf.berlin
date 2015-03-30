@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+html {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-size: 1.2em;
+  line-height: 1.333;
+  color: $font-color;
+  -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  @media screen and (min-width: 21.052631579em) {
+    font-size: 1.4em;
+  }
+  @media screen and (min-width: 29.894736842em) {
+    font-size: 1.6em;
+  }
+}
+
+.wrap {
+  width: 100%;
+  max-width: $max-page-width;
+  margin: 0 auto;
+  padding: 0 0.714rem;
+}
+
+.page_header {
+  position: relative;
+  background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
+  .site-title {
+    display: block;
+    color: $contrast-color;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: -10%;
+  }
+  .title {
+    display: block;
+    margin-top: 5%;
+    font-size: 2.5em;
+    font-weight: 700;
+    @media screen and (min-width: 21.052631579em) {
+      font-size: 2.3em;
+    }
+    @media screen and (min-width: 36.842105263em) {
+      font-size: 2.7em;
+    }
+  }
+  .skyline {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $contrast-color;
+  }
+}
+
+.page_footer {
+  font-size: .842105263em;
+  padding: .4rem 0 .3rem 0;
+  @media screen and (min-width: 21.052631579em) {
+   padding: .6rem 0 .5rem 0;
+  }
+  a{
+    color: $contrast-color;
+    text-decoration: none;
+    border-bottom: 1px dashed $contrast-color;
+  }
+}
+
+.page_content{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+
+          flex: 1;
+          -ms-flex: auto;
+  padding: 2rem 0;
+  overflow: hidden;
+  @media screen and (min-width: 43.75em) {
+    padding: 3rem 0;
+  }
+  a {
+    color: $main-color;
+    border-bottom: 1px dashed currentColor;
+    text-decoration: none;
+  }
+}

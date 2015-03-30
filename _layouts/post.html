@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="event-detail">
+  <header class="event-detail__header">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+  <article class="event-detail__content">
+  {{ content }}
+  </article>
+</div>
