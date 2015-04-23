@@ -20,14 +20,14 @@ If you're visiting via an airport, you'll probably want to go to Alexanderplatz 
 When in doubt, or if you're not going to Alexanderplatz, The [BVG journey planner](http://www.bvg.de/index.php/en/index.html) is quite good, as are the route planning apps (see below).
 
 ### From TXL
-From Tegel Airport, the easiest way to get to Alexanderplatz is to take the "TXL" bus route that goes directly there. You'll need an AB ticket, which will cost €2.60 and is valid for the rest of your journey inside the AB zone.
+From Tegel Airport, the easiest way to get to Alexanderplatz is to take the "TXL" bus route that goes directly there. You'll need an AB ticket, which will cost €2.70 and is valid for the rest of your journey inside the AB zone, including transfers.
 
 **Don't forget to validate your ticket**
 
 Or, you can take a taxi, should be about €25 to Alexanderplatz.
 
 ### From SXF
-From Schönefeld Airport, you have the option of two different train connections. I recommend taking the regional train (not the S-bahn). You'll need an ABC ticket, which will cost €3.20 and is valid for the rest of your journey inside the ABC zone.
+From Schönefeld Airport, you have the option of two different train connections. I recommend taking the regional train (not the S-bahn). You'll need an ABC ticket, which will cost €3.30 and is valid for the rest of your journey inside the ABC zone, including transfers.
 
 **Don't forget to validate your ticket**
 
@@ -39,25 +39,23 @@ First things first, you will probably want a data plan for one or more of your d
 
 **Obvious reminder**: make sure you get the correct sim card size for your device!
 
-Most prepaid sims sold over the counter are regular/micro, not nano sims (iPhone5+). Save yourself some hassle and and time in Berlin, and **order your sim online** and have it sent to your hotel or a friend in Berlin (I don't think any of the companies will ship sims outside Germany).
+Most prepaid sims sold over the counter are regular/micro, not nano sims (iPhone5+). However, the sales people at the large electronics (Saturn, Media Markt) stores have punches to cut sims down to nano size.
 
-[http://prepaidwithdata.wikia.com/wiki/Germany](http://prepaidwithdata.wikia.com/wiki/Germany) has a good overview of what is available.
-
-### Recommendation - congstar
-[congstar](http://prepaidwithdata.wikia.com/wiki/Germany#congstar) uses the Telekom Deutschland (formlery T-mobile) network, which has excellent coverage in Berlin and has pretty good coverage in rural areas as well.
-
-You can [buy their sim cards online](http://www.congstar.de/prepaid/) or in [many physical locations](http://prepaidwithdata.wikia.com/wiki/Germany#congstar)
-
-* <http://www.congstar.de/prepaid/>
-* <http://prepaidwithdata.wikia.com/wiki/Germany#congstar>
+[http://prepaid-data-sim-card.wikia.com/wiki/Germany](http://prepaid-data-sim-card.wikia.com/wiki/Germany#blau) has a good overview of what is available.
 
 ### Recommendation - blau.de
-In Berlin, [blau.de](http://prepaidwithdata.wikia.com/wiki/Germany#blau.de) works fairly well, and is quite affordable. It's easy enough to understand their website using just Google Translate in Chrome.
+In Berlin, [blau](http://prepaidwithdata.wikia.com/wiki/Germany#blau) works fairly well, and is quite affordable. It's easy enough to understand their website using just Google Translate in Chrome.
 
-You can [buy their sim cards online](https://www.blau.de) or in [many physical locations](http://prepaidwithdata.wikia.com/wiki/Germany#blau.de)
+You can [buy their sim cards online](https://www.blau.de) or in [many physical locations](http://prepaidwithdata.wikia.com/wiki/Germany#blau)
+
+When buying a blau sim at Saturn (verified 2015-04-22), you do not need to show ID or proof of German address. Other vendors (O2) require this now, making it somewhat of a hassle to get a sim.
+
+Using their [data packages](http://prepaid-data-sim-card.wikia.com/wiki/Germany#Data_feature_packs_13) can save you money and annoyance of topping up all the time.
 
 * <https://www.blau.de>
-* <http://prepaidwithdata.wikia.com/wiki/Germany#blau.de>
+* <http://prepaidwithdata.wikia.com/wiki/Germany#blau>
+
+Top ups for your blau sim can be bought in many, many shops and can even be done on their site using credit card, once the sim is activated.
 
 ## Money
 
