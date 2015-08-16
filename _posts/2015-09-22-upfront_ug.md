@@ -3,7 +3,7 @@ layout: post
 title:  "up.front usergroup"
 date:   2015-09-22
 venue: "co.up coworking space"
-ticket: ""
+ticket: "Free"
 time: "Time: 8pm"
 href: "http://up.front.ug"
 ---
