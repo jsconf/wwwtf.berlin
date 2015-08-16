@@ -17,8 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
 .page_footer {
   background-color: $main-color;
   color: $contrast-color;
@@ -36,15 +34,7 @@ html {
 .intro {
   text-align: center;
   margin: 0 auto 2rem;
-  max-width: 12.2em;
-  color: hsl(60, 1%, 44%);
-  @media screen and (min-width: 25em) {
-    font-size: 1.4em;
-    line-height: 1.2;
-  }
-  @media screen and (min-width: 30em) {
-    max-width: 15em;
-  }
+  max-width: 15em;
   @media screen and (min-width: 43.75em) {
     margin: 0 auto 3rem;
     max-width: 17.777777778em;

@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.333;
   color: $font-color;
   -webkit-font-smoothing: antialiased;
@@ -21,10 +21,18 @@ body {
           flex-direction: column;
   height: 100%;
   @media screen and (min-width: 21.052631579em) {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   @media screen and (min-width: 29.894736842em) {
-    font-size: 1.6em;
+    font-size: 1.4em;
+  }
+}
+
+a {
+  color: $main-color;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: $main-color;
   }
 }
 
@@ -37,26 +45,28 @@ body {
 
 .page_header {
   position: relative;
-  background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
   .site-title {
     display: block;
-    color: $contrast-color;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
-    margin-bottom: -10%;
+    margin-bottom: .5em;
+    text-align: center;
+    @media screen and (min-width: 21.052631579em) {
+      float: left;
+      text-align: left;
+    }
+  }
+  .site-nav {
+    @media screen and (min-width: 21.052631579em) {
+      float: right;
+      text-align: right;
+    }
   }
   .title {
     display: block;
-    margin-top: 5%;
-    font-size: 2.5em;
     font-weight: 700;
-    @media screen and (min-width: 21.052631579em) {
-      font-size: 2.3em;
-    }
-    @media screen and (min-width: 36.842105263em) {
-      font-size: 2.7em;
-    }
+    margin-bottom: 0;
   }
   .skyline {
     display: block;
@@ -89,10 +99,5 @@ body {
   overflow: hidden;
   @media screen and (min-width: 43.75em) {
     padding: 3rem 0;
-  }
-  a {
-    color: $main-color;
-    border-bottom: 1px dashed currentColor;
-    text-decoration: none;
   }
 }
