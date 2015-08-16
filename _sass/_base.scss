@@ -92,12 +92,34 @@ a {
 .page_content{
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-
           flex: 1;
           -ms-flex: auto;
   padding: 2rem 0;
   overflow: hidden;
   @media screen and (min-width: 43.75em) {
     padding: 3rem 0;
+  }
+}
+
+.wtf-hover {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+  &::after {
+    content: "WhatTheFest";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover::after {
+    content: "WhatTheF***";
   }
 }
