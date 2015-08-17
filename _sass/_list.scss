@@ -1,131 +1,109 @@
-
+$element-href-width: 3rem;
 
 .eventlist {
-  padding: 0;
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .eventlist-element {
-  margin-bottom: 1.5rem;
-  list-style: none;
-  &:hover .eventlist-element__bullets,
-  &:hover .eventlist-element__bullets:before,
-  &:hover .eventlist-element__bullets:after {
-    background-color: $main-color;
-  }
-  @media screen and (min-width: 21.052631579em) {
-   margin-bottom: 2rem;
-  }
-  @media screen and (min-width: 29.894736842em) {
-    margin-bottom: 2.5rem;
-  }
-  .eventlist-element__link {
-    text-decoration: none;
-    border-bottom: none;
-    color: $font-color;
-  }
-}
-
-.eventlist-element--is-hidden {
+  margin: 0;
+  padding: 0;
   position: relative;
-  &:before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 2.5rem;
-    right: -1px;
-    border-right: 1px dashed #575756;
-    position: absolute;
-    top: -2.5rem;
-  }
 }
 
-.eventlist-element--is-hidden .eventlist-element__date-day,
-.eventlist-element--is-hidden .eventlist-element__date-day-name {
-  display: none;
+.eventlist-element a {
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: white;
+  }
 }
 
 .eventlist-element__link {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.eventlist-element__date {
-  text-align: right;
-  padding-right: 1rem;
-  min-width: 2.5em;
-  align-self: flex-start;
-}
-
-.eventlist-element__date-day {
+  color: white;
   display: block;
-  font-size: 1.4em;
-}
 
-.eventlist-elemnt-infowrap {
-  margin-right: auto;
-  padding-left: 1rem;
-  border-left: 1px solid $font-color;
-  max-width: 21.153846154em;
-}
-
-.eventlist-element__title {
-  display: block;
-  font-size: 1.4em;
-  margin-bottom: .3rem;
-  color: $main-color;
-}
-.eventlist-element__venue,
-.eventlist-element__time {
-  position: relative;
-  &:after {
-    content: "|";
-    margin-left: .5rem;
-    margin-right: .5rem;
+  &:hover,
+  &:focus {
+    color: white;
   }
 }
 
-.eventlist-element__venue {
-  display: inline-block;
+.eventlist-element__more {
+  font-size: .85em;
+  opacity: .75;
 }
 
-.eventlist-element__bullets {
+.eventlist-element__content {
+  padding: .75rem;
+  padding-right: (.75rem + $element-href-width);
+  background: darkmagenta;
+  color: white;
+}
+
+.eventlist-element__more {
   display: none;
-  @media screen and (min-width: 42.5em) {
-    display: block;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    background-color: #919091;
-    justify-self: flex-end;
-    margin-left: auto;
-    position: relative;
-    left: -.769230769em;
-    -webkit-align-self: flex-start;
-    align-self: flex-start;
-    margin-top: .9375rem;
-    margin-right: .9375rem;
-    &:before,
-    &:after {
-      content: "";
-      width: 12px;
-      height: 12px;
-      background-color: #919091;
-      display: block;
-      border-radius: 50%;
-      position: absolute;
-    }
-    &:before {
-      left: -.769230769em;
-    }
-    &:after {
-      left: .769230769em;
-      top: 0;
-    }
+}
+
+.eventlist-element__content:target {
+  background: purple;
+}
+
+.eventlist-element__content:target .eventlist-element__more {
+  display: block;
+}
+
+.eventlist-element__date {
+  display: inline-block;
+  width: 3em;
+}
+
+.eventlist-element__title {
+  display: inline-block;
+  padding-right: .25em;
+  font-weight: bold;
+}
+
+.eventlist-element__time {
+  opacity: .75;
+}
+
+.eventlist-element__expand,
+.eventlist-element__collapse {
+  width: $element-href-width;
+  padding: .75rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  background: rgba(0,0,0,.2);
+}
+
+.eventlist-element__collapse {
+  visibility: hidden;
+
+  .eventlist-element__content:target & {
+    visibility: visible;
+  }
+}
+
+.eventlist-element__expand {
+  visibility: visible;
+
+  .eventlist-element__content:target & {
+    visibility: hidden;
+  }
+}
+
+.eventlist-element__plus {
+  opacity: .35;
+  transition: transform .25s;
+
+  .eventlist-element__content:target & {
+    opacity: 1;
+    transform: rotate( (45deg + 90deg) );
   }
 }
