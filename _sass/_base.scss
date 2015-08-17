@@ -1,8 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-
-html {
-  font-family: 'PT Sans Narrow', sans-serif;
+body {
+  font-family: "Arial Narrow", sans-serif;
   font-weight: 400;
+}
+
+.wf-active body {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 body {
