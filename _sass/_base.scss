@@ -123,3 +123,32 @@ a {
     content: "WhatTheF***";
   }
 }
+
+.icon-plus {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: "";
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background: currentcolor;
+    border-radius: 2px;
+  }
+
+  &::after {
+    content: "";
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background: currentcolor;
+    border-radius: 2px;
+  }
+}
