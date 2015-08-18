@@ -9,11 +9,11 @@ cool stuff while you're here, but this will hopefully get you started!
 
 <a name="top"></a>
 <ul>
-<li><a class="eventlist-element__link" href="#transport">transport</a></li>
-<li><a class="eventlist-element__link" href="#gettingonline">getting online</a></li>
-<li><a class="eventlist-element__link" href="#money">money</a></li>
-<li><a class="eventlist-element__link" href="#coffee">coffee</a></li>
-<li><a class="eventlist-element__link" href="#fooddrink">food and drink</a></li>
+<li><a href="#transport">transport</a></li>
+<li><a href="#gettingonline">getting online</a></li>
+<li><a href="#money">money</a></li>
+<li><a href="#coffee">coffee</a></li>
+<li><a href="#fooddrink">food and drink</a></li>
 </ul>
 
 ## <a name="transport"></a>Transport
