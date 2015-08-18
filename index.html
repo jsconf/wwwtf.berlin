@@ -1,11 +1,8 @@
 ---
 layout: default
 title: wwwtf.berlin
+intro: <div class="page-intro"><p>A full week of events for and by the web tech community in Berlin.<br>We welcome you to attend, and invite you to <a href="#">add your own event</a>.</p><p><small>Are you travelling to Berlin? Check out our <a href="/welcome/">Berlin Survival Guide</a>.</small></p></div>
 ---
-
-<p class="intro">
-  A full week of events for and by the web tech community in Berlin. We welcome you to attend, and invite you to <a href="#">add your own event</a>. Are you travelling to Berlin? Check out our <a href="/welcome/">Berlin Survival Guide</a>.
-</p>
 
 {% assign previousDate = site.date %}
 
@@ -54,7 +51,7 @@ title: wwwtf.berlin
       var increment = 1 / elements.length;
 
       for (var i = elements.length - 1; i >= 0; i--) {
-        var bgcolor = 'rgba(' + rgbvalue + ',' + increment * i + ')';
+        var bgcolor = 'rgba(' + rgbvalue + ',' + increment * i / 1.5 + ')';
         elements[i].style.backgroundImage = '-webkit-linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
         elements[i].style.backgroundImage = 'linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
         console.log(elements[i]);

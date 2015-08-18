@@ -2,15 +2,20 @@ $element-href-width: 3rem;
 
 .eventlist {
   list-style: none;
+  display: block;
   margin: 0;
+  margin-top: -14rem;
   padding: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .eventlist-element {
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: darkmagenta;
+  background-color: $eventlist-color;
 }
 
 .eventlist-element a {
