@@ -9,7 +9,7 @@ title: wwwtf.berlin
 
 {% assign previousDate = site.date %}
 
-<ol class="eventlist">
+<ol class="eventlist" id="eventlist">
   {% for post in site.posts reversed %}
     <li class="eventlist-element">
       <div class="eventlist-element__content" id="{{ post.id }}">
@@ -42,4 +42,24 @@ title: wwwtf.berlin
     </li>
   {% endfor %}
 </ol>
+
+<script>
+  (function() {
+    var listitems = document.getElementById( 'eventlist' ).children;
+    var gradientRgb = '0,0,0'
+
+    overlayGradient( listitems, gradientRgb );
+
+    function overlayGradient( elements, rgbvalue ) {
+      var increment = 1 / elements.length;
+
+      for (var i = elements.length - 1; i >= 0; i--) {
+        var bgcolor = 'rgba(' + rgbvalue + ',' + increment * i + ')';
+        elements[i].style.backgroundImage = '-webkit-linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
+        elements[i].style.backgroundImage = 'linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
+        console.log(elements[i]);
+      };
+    }
+  })()
+</script>
 <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

@@ -10,6 +10,7 @@ $element-href-width: 3rem;
   margin: 0;
   padding: 0;
   position: relative;
+  background-color: darkmagenta;
 }
 
 .eventlist-element a {
@@ -39,7 +40,6 @@ $element-href-width: 3rem;
 .eventlist-element__content {
   padding: .75rem;
   padding-right: (.75rem + $element-href-width);
-  background: darkmagenta;
   color: white;
 }
 
@@ -48,7 +48,7 @@ $element-href-width: 3rem;
 }
 
 .eventlist-element__content:target {
-  background: purple;
+  background: rgba(255,255,255,.2);
 }
 
 .eventlist-element__content:target .eventlist-element__more {
