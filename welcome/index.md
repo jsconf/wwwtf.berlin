@@ -160,6 +160,6 @@ Here are a few more lists that might be of interest to you
 * [Chinese food in Berlin](https://foursquare.com/mrgnrdrck/list/chinese-food-in-berlin)
 * [Berlin bars](https://foursquare.com/user/79085/list/berlin-bars)
 
-The above foursquare lists are some awesome places curated and recommend by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
+The above foursquare lists are some awesome places curated and recommended by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
 
 <a href="#top">Back to Top</a>
