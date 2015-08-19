@@ -2,14 +2,20 @@ $element-href-width: 3rem;
 
 .eventlist {
   list-style: none;
+  display: block;
   margin: 0;
+  margin-top: -14rem;
   padding: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .eventlist-element {
   margin: 0;
   padding: 0;
   position: relative;
+  background-color: $eventlist-color;
 }
 
 .eventlist-element a {
@@ -39,7 +45,6 @@ $element-href-width: 3rem;
 .eventlist-element__content {
   padding: .75rem;
   padding-right: (.75rem + $element-href-width);
-  background: darkmagenta;
   color: white;
 }
 
@@ -47,12 +52,12 @@ $element-href-width: 3rem;
   display: none;
 }
 
-.eventlist-element__content:target {
-  background: purple;
-}
-
-.eventlist-element__content:target .eventlist-element__more {
-  display: block;
+.eventlist-element__content:target,
+.eventlist-element__content.open {
+  background: rgba(255,255,255,.2);
+  .eventlist-element__more {
+    display: block;
+  }
 }
 
 .eventlist-element__date {
@@ -102,7 +107,8 @@ $element-href-width: 3rem;
   opacity: .35;
   transition: transform .25s;
 
-  .eventlist-element__content:target & {
+  .eventlist-element__content:target &,
+  .eventlist-element__content.open & {
     opacity: 1;
     transform: rotate( (45deg + 90deg) );
   }

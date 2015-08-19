@@ -1,7 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-
-html {
-  font-family: 'PT Sans Narrow', sans-serif;
+body {
+  font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
   font-weight: 400;
 }
 
@@ -10,15 +8,6 @@ body {
   line-height: 1.333;
   color: $font-color;
   -webkit-font-smoothing: antialiased;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
   height: 100%;
   @media screen and (min-width: 21.052631579em) {
     font-size: 1.2em;
@@ -43,8 +32,28 @@ a {
   padding: 0 0.714rem;
 }
 
-.page_header {
-  position: relative;
+.page-header {
+  background: $main-color;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+
+    &::hover,
+    &::focus {
+      color: white;
+    }
+  }
+
   .site-title {
     display: block;
     text-decoration: none;
@@ -84,18 +93,12 @@ a {
   }
   a{
     color: $contrast-color;
-    text-decoration: none;
-    border-bottom: 1px dashed $contrast-color;
+    text-decoration: underline;
   }
 }
 
-.page_content{
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
-          -ms-flex: auto;
+.page-content{
   padding: 2rem 0;
-  overflow: hidden;
   @media screen and (min-width: 43.75em) {
     padding: 3rem 0;
   }
@@ -122,6 +125,13 @@ a {
   &:hover::after {
     content: "WhatTheF***";
   }
+}
+
+.page-intro {
+  padding-top: 2rem;
+  padding-bottom: 12rem;
+  text-align: center;
+  clear: both;
 }
 
 .icon-plus {
