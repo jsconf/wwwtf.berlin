@@ -40,7 +40,7 @@ Berlin has an excellent public transport system, consisting of:
 The tickets might not look the same, but they do cover all local systems and allows you to transfer from one to the other to complete your journey. [You can find the different zones on the map](http://www.bvg.de/de/index.php?section=downloads&cmd=58&download=399), that helps you to decide whether you need an AB or ABC ticket.
 
 
-There are also taxis. In my experience, they're reasonably priced (compared to Scandinavia at least) and drivers take the most direct route or even ask your preference if you show any German proficiency.
+There are also taxis. They're reasonably priced (compared to Scandinavia at least) and drivers take the most direct route or even ask your preference if you show any German proficiency.
 
 ### From TXL
 From Tegel Airport, the easiest way to get to the city center is to take the "TXL" bus route that goes directly there. You'll need an AB ticket, which will cost €2.70 and is valid for the rest of your journey inside the AB zone, including transfers.
@@ -48,7 +48,7 @@ From Tegel Airport, the easiest way to get to the city center is to take the "TX
 A taxi, should be about €25 to Alexanderplatz.
 
 ### From SXF
-From Schönefeld Airport, you have the option of two different train connections. I recommend taking the regional train (not the S-bahn). You'll need an ABC ticket, which will cost €3.30 and is valid for the rest of your one-way journey inside the ABC zone, including transfers to other transfer methods.
+From Schönefeld Airport, you have the option of two different train connections. We recommend taking the regional train (not the S-bahn). You'll need an ABC ticket, which will cost €3.30 and is valid for the rest of your one-way journey inside the ABC zone, including transfers to other transfer methods.
 
 A taxi should be about €35 to Alexanderplatz.
 
@@ -59,7 +59,8 @@ A taxi should be about €35 to Alexanderplatz.
 
 Berlin is very bicycle friendly, and you can rent bicycles pretty much everywhere.
 
-I've used [Fat Tire](http://berlin.fattirebiketours.com/pages/information/online-rentals) before, and was very happy with their service.
+[Fat Tire](http://berlin.fattirebiketours.com/pages/information/online-rentals) are well known,
+and also have some great tours around the city on bikes.
 
 Don't forget to buy a ticket for your bike, if you decide to take it with you on public transit.
 
@@ -75,7 +76,7 @@ If you provide the app with payment information, you can use them to buy tickets
 
 **Idea**: You can even buy an all-day ticket (AB for TXL, ABC for SXF) before you even leave your home, and be ready to just step on the train/bus/tram when you arrive in Berlin.
 
-Also, Google has added Berlin public transit to the routing in the Maps apps on iOS, I suspect that means it's already in Android.
+Also, Google has added Berlin public transit to the routing in the Maps apps on iOS, which hopefully means the same for Android.
 
 ### BVG - tickets
 
@@ -116,7 +117,7 @@ Using their [data packages](http://prepaid-data-sim-card.wikia.com/wiki/Germany#
 * <https://www.blau.de>
 * <http://prepaidwithdata.wikia.com/wiki/Germany#blau>
 
-Top ups for your blau sim can be bought in many, many shops and can even be done on their site using credit card, once the sim is activated.
+Top-ups for your blau sim can be bought in many, many shops and can even be done on their site using credit card, once the sim is activated.
 
 ## Free wifi
 
@@ -138,7 +139,7 @@ Some issuers of cards offer you to take out cash without fees from any machine, 
 
 While Berlin is quite a safe city, there are still pick-pockets. If you're getting out a lot of money, be sure to keep your wallet not easily accessible to thieves.
 
-### cash machines
+### Cash Machines
 I use the [Geldautomat Suche](https://itunes.apple.com/de/app/geldautomat-suche-ihre-kostenlose/id438417025?mt=8) app to find banks in CashGroup (which means I can take out cash without fees). The app also lists cash machines for non-CashGroup banks.
 
 
@@ -160,6 +161,6 @@ Here are a few more lists that might be of interest to you
 * [Chinese food in Berlin](https://foursquare.com/mrgnrdrck/list/chinese-food-in-berlin)
 * [Berlin bars](https://foursquare.com/user/79085/list/berlin-bars)
 
-The above foursquare lists are some awesome places curated and recommended by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
+The above foursquare lists and article are some awesome tips, tricks and places curated and recommended by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
 
 <a href="#top">Back to Top</a>
