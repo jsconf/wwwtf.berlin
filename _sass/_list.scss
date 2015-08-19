@@ -52,12 +52,12 @@ $element-href-width: 3rem;
   display: none;
 }
 
-.eventlist-element__content:target {
+.eventlist-element__content:target,
+.eventlist-element__content.open {
   background: rgba(255,255,255,.2);
-}
-
-.eventlist-element__content:target .eventlist-element__more {
-  display: block;
+  .eventlist-element__more {
+    display: block;
+  }
 }
 
 .eventlist-element__date {
@@ -107,7 +107,8 @@ $element-href-width: 3rem;
   opacity: .35;
   transition: transform .25s;
 
-  .eventlist-element__content:target & {
+  .eventlist-element__content:target &,
+  .eventlist-element__content.open & {
     opacity: 1;
     transform: rotate( (45deg + 90deg) );
   }
