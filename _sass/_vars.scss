@@ -1,9 +1,10 @@
-$main-color: mediumvioletred;
-$contrast-color: #fff;
-$font-color: #575756;
-$eventlist-color: purple;
+$color_main: purple; //change this color to change the entire site's color scheme
+$color_contrast: #FFFFFF;
+$color_font: #575756;
+$color_eventlist: purple;
 
-$color_white_off: #F8F8F9;
-$color_white: #FFFFFF;
+
+$color_eventlist: $color_main;
+
 
 $max-page-width: 32em;

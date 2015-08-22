@@ -18,8 +18,8 @@ html {
 }
 
 .page_footer {
-  background-color: $main-color;
-  color: $contrast-color;
+  background-color: $color_main;
+  color: $color_contrast;
   .heart {
     @include hearticon(8px);
   }

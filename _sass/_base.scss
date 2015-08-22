@@ -6,7 +6,7 @@ body {
 body {
   font-size: 1em;
   line-height: 1.333;
-  color: $font-color;
+  color: $color_font;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   @media screen and (min-width: 21.052631579em) {
@@ -18,28 +18,28 @@ body {
 }
 
 a {
-  color: $main-color;
+  color: $color_main;
   text-decoration: none;
   &:hover, &:focus {
-    color: rgba($main-color, .75);
+    color: rgba($color_main, .75);
   }
 }
 
 .page-header a {
-  color: $color_white;
+  color: $color_contrast;
   &:hover, &:focus {
-    color: rgba($color_white, .75);
+    color: rgba($color_contrast, .75);
   }
 }
 
 .page-header .button, .button {
   display: inline-block;
   padding: .5em .75em;
-  border: 1px solid $color_white;
+  border: 1px solid $color_contrast;
   text-decoration: none;
   &:hover, &:focus {
-    color: $main-color;
-    background-color: $color_white;;
+    color: $color_main;
+    background-color: $color_contrast;;
   }
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 .page-header {
-  background: $main-color;
+  background: $color_main;
   color: white;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -98,7 +98,7 @@ a {
     display: block;
     width: 100%;
     height: 100%;
-    fill: $contrast-color;
+    fill: $color_contrast;
   }
 }
 
@@ -109,7 +109,7 @@ a {
    padding: .6rem 0 .5rem 0;
   }
   a{
-    color: $contrast-color;
+    color: $color_contrast;
     text-decoration: underline;
   }
 }
@@ -124,7 +124,7 @@ a {
 // pulls up content in order to overlay intro 
 .pull-up-content {
   margin-top: -12rem;
-  background-color: $color-white;
+  background-color: $color_contrast;
 }
 .pull-up-content--text {
   padding: 1rem 2rem;
@@ -158,7 +158,7 @@ a {
   padding-bottom: 10rem;
   text-align: center;
   clear: both;
-  background-color: lighten($main-color, 55%);
+  background-color: lighten($color_main, 55%);
 }
 
 .icon-plus {
