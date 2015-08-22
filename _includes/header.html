@@ -1,13 +1,21 @@
 <header class="page-header">
-	<div class="wrap">
-		<a class="site-title" href="{{ site.baseurl }}/">
-			<h1 class="title wtf-hover">WhatTheFest</h1>
-			<span>wwwtf.berlin</span> | <span>September 2015</span>
-		</a>
+  <div class="wrap">
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <h1 class="title wtf-hover">WhatTheFest</h1>
+      <span class="title-subline">September 2015&emsp;|&emsp;wwwtf.berlin</span>
+    </a>
     <div class="site-nav">
+      <a href="/about/">About</a>
+      <a href="/welcome/">Attendee Guide</a>
       <a href="https://twitter.com/wwwtfberlin">Twitter</a>
-      <a href="/add-your-event/">Add your own Event</a>
+      <a href="/add-your-event/" class="button">Add your own Event</a>
     </div>
-    {{ page.intro }}
-	</div>
+  </div>
 </header>
+<div class="page-intro">
+  <div class="wrap">
+    <p>
+      {{ page.intro }}
+    </p>
+  </div>
+</div>

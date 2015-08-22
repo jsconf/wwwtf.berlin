@@ -1,19 +1,17 @@
 ---
 layout: default
 title: wwwtf.berlin Welcome
+intro: To help you discover Berlin, we've put together the below guide with some tips and lists of our favourite things. We're sure you'll discover heaps of your own cool stuff while you're here, but this will hopefully get you started!
+class: pull-up-content--text
 ---
-
-To help you discover Berlin, we've put together the below guide with some tips
-and lists of our favourite things. We're sure you'll discover heaps of your own
-cool stuff while you're here, but this will hopefully get you started!
 
 <a name="top"></a>
 <ul>
-<li><a href="#transport">transport</a></li>
-<li><a href="#gettingonline">getting online</a></li>
-<li><a href="#money">money</a></li>
-<li><a href="#coffee">coffee</a></li>
-<li><a href="#fooddrink">food and drink</a></li>
+<li><a href="#transport">Transport</a></li>
+<li><a href="#gettingonline">Getting Online</a></li>
+<li><a href="#money">Money</a></li>
+<li><a href="#coffee">Coffee</a></li>
+<li><a href="#fooddrink">Food and Drink</a></li>
 </ul>
 
 ## <a name="transport"></a>Transport

@@ -21,7 +21,25 @@ a {
   color: $main-color;
   text-decoration: none;
   &:hover, &:focus {
+    color: rgba($main-color, .75);
+  }
+}
+
+.page-header a {
+  color: $color_white;
+  &:hover, &:focus {
+    color: rgba($color_white, .75);
+  }
+}
+
+.page-header .button, .button {
+  display: inline-block;
+  padding: .5em .75em;
+  border: 1px solid $color_white;
+  text-decoration: none;
+  &:hover, &:focus {
     color: $main-color;
+    background-color: $color_white;;
   }
 }
 
@@ -35,23 +53,13 @@ a {
 .page-header {
   background: $main-color;
   color: white;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 
   &::after {
     content: "";
     display: block;
     clear: both;
-  }
-
-  a {
-    color: white;
-    text-decoration: underline;
-
-    &::hover,
-    &::focus {
-      color: white;
-    }
   }
 
   .site-title {
@@ -67,6 +75,11 @@ a {
     }
   }
   .site-nav {
+    font-size: 1rem;
+    a {
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
     @media screen and (min-width: 21.052631579em) {
       float: right;
       text-align: right;
@@ -76,6 +89,10 @@ a {
     display: block;
     font-weight: 700;
     margin-bottom: 0;
+    line-height: 1;
+  }
+  .title-subline {
+    font-size: 1rem;
   }
   .skyline {
     display: block;
@@ -104,6 +121,15 @@ a {
   }
 }
 
+// pulls up content in order to overlay intro 
+.pull-up-content {
+  margin-top: -12rem;
+  background-color: $color-white;
+}
+.pull-up-content--text {
+  padding: 1rem 2rem;
+}
+
 .wtf-hover {
   overflow: hidden;
   white-space: nowrap;
@@ -129,9 +155,10 @@ a {
 
 .page-intro {
   padding-top: 2rem;
-  padding-bottom: 12rem;
+  padding-bottom: 10rem;
   text-align: center;
   clear: both;
+  background-color: lighten($main-color, 55%);
 }
 
 .icon-plus {

@@ -1,9 +1,12 @@
 ---
 layout: default
 title: wwwtf.berlin Add your event
+intro: WhatTheFest is **your** festival – a full week of events for and by the Web Tech community in Berlin.
+class: pull-up-content--text
 ---
+
 # Add your event
-[wwwtf.Berlin](http://wwwtf.berlin) is **your** festival – a full week of events for and by the Web Tech community in Berlin.
+
 
 Everyone can add events to our schedule. Yes, you can, too. Even your company. We will promote your event, just as we promote all the others.
 
