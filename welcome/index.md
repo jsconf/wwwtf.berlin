@@ -6,13 +6,15 @@ class: pull-up-content--text
 ---
 
 <a name="top"></a>
-<ul>
+
+<ul class="subnav">
 <li><a href="#transport">Transport</a></li>
 <li><a href="#gettingonline">Getting Online</a></li>
 <li><a href="#money">Money</a></li>
 <li><a href="#coffee">Coffee</a></li>
 <li><a href="#fooddrink">Food and Drink</a></li>
 </ul>
+
 
 ## <a name="transport"></a>Transport
 
@@ -21,7 +23,7 @@ If you're coming to Berlin via an airport, you'll probably want to go to Alexand
 When buying tickets on buses, for a single journey you can ask for a 'one-way' or 'einzelfahrschein'. Beware that bus drivers will tend to refuse large cash notes/bills. If you have a large note, try to buy from a machine, before getting on the bus. It might be more cost effective to buy a ticket for a few days, if you know you will be needing the ticket a lot during your stay. You can buy Tages (Day Cards), 3-Tage (3-day) and Wochenkarte (weekly tickets) at ticket machines using cash, and EC/Maestro cards. Most ticket machines do not take credit cards.
 
 **Don't forget to validate your ticket**
-The 'controllers' are pretty unforgiving if you get caught without a validated ticket. Ticket validation machines can be found near ticket machines, before the steps to the U-Bahn or inside your tram/bus. They are small red/yellow machines on metal poles, where you stick in the end of your ticket and stamp it. Tickets that need validation will have a few arrows pointing to the end that needs validating. Note: you can buy tickets on Trams and Buses, but NOT on U-bahns/S-bahns so make sure to have a validated ticket before you get on
+The 'controllers' are pretty unforgiving if you get caught without a validated ticket. Ticket validation machines can be found near ticket machines, before the steps to the U-Bahn or inside your tram/bus. They are small red/yellow machines on metal poles, where you stick in the end of your ticket and stamp it. Tickets that need validation will have a few arrows pointing to the end that needs validating. Note: you can buy tickets on Trams and Buses, but NOT on U-bahns/S-bahns so make sure to have a validated ticket before you get on.
 
 ## Getting around
 

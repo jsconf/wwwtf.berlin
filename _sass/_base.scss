@@ -161,6 +161,19 @@ a {
   background-color: lighten($color_main, 55%);
 }
 
+.subnav {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      padding: .5em;
+    }
+  }
+}
+
 .icon-plus {
   width: 15px;
   height: 15px;
