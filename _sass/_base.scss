@@ -51,10 +51,11 @@ a {
 }
 
 .page-header {
-  background: $color_main;
+  background-color: $color_main;
+ // background: url('../img/space.png') no-repeat scroll top center;
   color: white;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 
   &::after {
     content: "";
@@ -103,10 +104,10 @@ a {
 }
 
 .page_footer {
-  font-size: .842105263em;
-  padding: .4rem 0 .3rem 0;
+  font-size: 1rem;
+  padding: .5rem 0 .4rem 0;
   @media screen and (min-width: 21.052631579em) {
-   padding: .6rem 0 .5rem 0;
+   padding: .75rem 0 .6rem 0;
   }
   a{
     color: $color_contrast;
@@ -187,7 +188,7 @@ a {
     position: absolute;
     top: 0;
     left: 40%;
-    background: currentcolor;
+    background-color: currentcolor;
     border-radius: 2px;
   }
 
@@ -198,7 +199,7 @@ a {
     position: absolute;
     top: 40%;
     left: 0;
-    background: currentcolor;
+    background-color: currentcolor;
     border-radius: 2px;
   }
 }
