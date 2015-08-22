@@ -1,8 +1,8 @@
 $color_main: purple; //change this color to change the entire site's color scheme
 $color_contrast: #FFFFFF;
-$color_font: #575756;
-$color_eventlist: purple;
 
+$color_font: #575756;
+$color_font: desaturate(darken($color_main, 20%),80%);
 
 $color_eventlist: $color_main;
 
