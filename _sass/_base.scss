@@ -18,10 +18,10 @@ body {
 }
 
 a {
-  color: $color_main;
+  color: saturate($color_main, 80%);
   text-decoration: none;
   &:hover, &:focus {
-    color: rgba($color_main, .75);
+    opacity: .75;
   }
 }
 
@@ -124,10 +124,10 @@ a {
 // pulls up content in order to overlay intro 
 .pull-up-content {
   margin-top: -12rem;
-  background-color: $color_contrast;
 }
 .pull-up-content--text {
   padding: 1rem 2rem;
+  background-color: $color_contrast;
 }
 
 .wtf-hover {

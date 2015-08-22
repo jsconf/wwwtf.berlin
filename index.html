@@ -10,30 +10,30 @@ class: pull-up-content--list
 <ol class="eventlist" id="eventlist">
   {% for post in site.posts reversed %}
     <li class="eventlist-element">
-      <div class="eventlist-element__content" id="{{ post.id }}">
-        <div class="eventlist-element__main">
+      <div class="eventlist-element__content" id="{{ post.id }}"><!--
+      --><div class="eventlist-element__main">
           {% if post.date == previousDate %}
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date eventlist-element--is-hidden">
               <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
               <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-            </time>
-          {% else %}
+            </time><!--
+       -->{% else %}
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
               <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
               <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-            </time>
-          {% endif %}
-          <span class="eventlist-element__title">
+            </time><!--
+       -->{% endif %}<!--
+       --><span class="eventlist-element__title">
             <a class="eventlist-element__link" href="{{ post.href }}">{{ post.title }}</a>
           </span>
-          <span class="eventlist-element__time">{{ post.time }}</span>
           <a class="eventlist-element__expand" href="#{{ post.id }}"><i class="eventlist-element__plus icon icon-plus"></i></a>
           <a class="eventlist-element__collapse" href="#"><i class="eventlist-element__plus icon icon-plus"></i></a>
         </div>
         {% assign previousDate = post.date %}
           <div class="eventlist-element__more">
-            <span class="eventlist-element__venue">Venue: {{ post.venue }}</span>
-            <span class="eventlist-element__ticket">{{ post.ticket }}</span>
+            <span class="eventlist-element__time"><span class="eventlist-element__label">Time:</span> {{ post.time }}</span>
+            <span class="eventlist-element__venue"><span class="eventlist-element__label">Venue: </span>{{ post.venue }}</span>
+            <span class="eventlist-element__ticket"><span class="eventlist-element__label">Ticket:</span> {{ post.ticket }}</span>
           </div>
         </div>
       </a>
