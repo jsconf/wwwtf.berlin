@@ -1,5 +1,5 @@
 $element-href-width: 3rem;
-$element-date-width: 4.5em;
+$element-date-width: 4.5rem;
 
 .eventlist {
   list-style: none;
@@ -29,11 +29,25 @@ $element-date-width: 4.5em;
 
 .eventlist-element__link {
   color: white;
-  display: block;
+
+  &::after {
+    content: "→";
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: .8em;
+    margin-left: .5em;
+    opacity: .15;
+    transition: transform .1s;
+  }
 
   &:hover,
   &:focus {
     color: white;
+
+    &::after {
+      opacity: 1;
+      transform: translateX(.25em);
+    }
   }
 }
 
