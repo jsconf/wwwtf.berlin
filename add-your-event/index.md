@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wwwtf.berlin Add your event
-intro: WhatTheFest is **your** festival – a full week of events for and by the Web Tech community in Berlin.
+intro: WhatTheFest is <strong>your</strong> festival – a full week of events for and by the Web Tech community in Berlin.
 class: pull-up-content--text
 ---
 
