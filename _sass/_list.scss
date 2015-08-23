@@ -1,5 +1,5 @@
 $element-href-width: 3rem;
-$element-date-width: 4.5rem;
+$element-date-width: 4rem;
 
 .eventlist {
   list-style: none;
@@ -55,7 +55,7 @@ $element-date-width: 4.5rem;
 
 .eventlist-element__content:target,
 .eventlist-element__content.open {
-  background: rgba(255,255,255,.2);
+  background: rgba(255,255,255,.1);
   .eventlist-element__more {
     display: block;
   }

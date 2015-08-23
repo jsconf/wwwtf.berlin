@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: saturate($color_main, 80%);
+  color: saturate($color_main, 70%);
   text-decoration: none;
   &:hover, &:focus {
     opacity: .75;
@@ -163,7 +163,7 @@ a {
   padding-bottom: 10rem;
   text-align: center;
   clear: both;
-  background-color: lighten($color_main, 55%);
+  background-color: lighten($color_main, 50%);
 
   a {
     white-space: nowrap;
