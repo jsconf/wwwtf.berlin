@@ -6,6 +6,8 @@ $element-date-width: 4.5rem;
   display: block;
   margin: 0;
   padding: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -37,6 +39,8 @@ $element-date-width: 4.5rem;
     font-size: .8em;
     margin-left: .5em;
     opacity: .15;
+    -webkit-transition: transform .1s;
+    -moz-transition: transform .1s;
     transition: transform .1s;
   }
 
@@ -46,6 +50,8 @@ $element-date-width: 4.5rem;
 
     &::after {
       opacity: 1;
+      -webkit-transform: translateX(.25em);
+      -moz-transform: translateX(.25em);
       transform: translateX(.25em);
     }
   }
@@ -123,11 +129,15 @@ $element-date-width: 4.5rem;
 
 .eventlist-element__plus {
   opacity: .35;
+  -webkit-transition: transform .25s;
+  -moz-transition: transform .25s;
   transition: transform .25s;
 
   .eventlist-element__content:target &,
   .eventlist-element__content.open & {
     opacity: 1;
+    -webkit-transform: rotate( (45deg + 90deg) );
+    -moz-transform: rotate( (45deg + 90deg) );
     transform: rotate( (45deg + 90deg) );
   }
 }
