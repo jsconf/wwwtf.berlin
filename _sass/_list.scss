@@ -1,5 +1,5 @@
 $element-href-width: 3rem;
-$element-date-width: 4rem;
+$element-date-width: 4.5em;
 
 .eventlist {
   list-style: none;
@@ -40,13 +40,14 @@ $element-date-width: 4rem;
 .eventlist-element__more {
   font-size: .85em;
   opacity: .75;
-  margin-left: $element-date-width;
 }
 
 .eventlist-element__content {
   padding: .75rem;
   padding-right: (.75rem + $element-href-width);
   color: white;
+  position: relative;
+  padding-left: (.75rem + $element-date-width);
 }
 
 .eventlist-element__more {
@@ -62,8 +63,10 @@ $element-date-width: 4rem;
 }
 
 .eventlist-element__date {
-  display: inline-block;
   width: $element-date-width;
+  position: absolute;
+  top: .75rem;
+  left: .75rem;
 }
 
 .eventlist-element__title {
