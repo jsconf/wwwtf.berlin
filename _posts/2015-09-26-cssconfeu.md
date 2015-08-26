@@ -3,8 +3,8 @@ layout: post
 title:  "CSSconf EU"
 date:   2015-09-26
 venue: "Radialsystem"
-ticket: "Ticket: Available again soon"
-time: "Time: 10am"
+ticket: "Sold Out"
+time: "all day"
 href: "http://2015.cssconf.eu/"
 ---
 <!-- fill in the URL of your event host page if you haven't enough information for a detail page, so the event link won't point on the detail page at all -->

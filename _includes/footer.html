@@ -1,8 +1,34 @@
 <footer class="page_footer">
   <div class="wrap">
-    <span class="heart-wrap">View the code on <a href="https://github.com/janl/wwwtf.berlin">GitHub</a>. From the community for the community, with <span class="heart"></span></span>
+    <span class="heart-wrap">View the code on <a href="https://github.com/janl/wwwtf.berlin">GitHub</a>. Follow us on <a href="https://twitter.com/wwwtfberlin">Twitter</a>.
+      <br>
+      From the community for the community, with <span class="heart"></span></span>
   </div>
 </footer>
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'PT+Sans+Narrow:400,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+<script>
+
+$( "a.eventlist-element__expand, a.eventlist-element__collapse" ).click(function(event) {
+  event.preventDefault();
+  history.pushState({}, document.title, this.href);
+  $(this).closest('.eventlist-element__content').toggleClass('open');
+});
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,52 +1,61 @@
 ---
 layout: default
 title: wwwtf.berlin
+intro: A full week of events for and by the web tech community in Berlin. <br><br><small>We welcome you to attend, and encourage you to <a href="add-your-event">add your own event</a>.<br>Are you travelling to Berlin? Check out our <a href="/attendee-guide/">Attendee Guide</a>.</small>
+class: pull-up-content--list
 ---
-
-<p class="intro">
-  A full week of events for and by the Web Tech Fest community in Berlin. <a href="/welcome/">Welcome</a>.
-</p>
 
 {% assign previousDate = site.date %}
 
-<ol class="eventlist">
+<ol class="eventlist" id="eventlist">
   {% for post in site.posts reversed %}
     <li class="eventlist-element">
-      {% if post.href %}
-        <a class="eventlist-element__link" href="{{ post.href }}">
-      {% else %}
-        <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}
-      {% if post.date == previousDate %}
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date eventlist-element--is-hidden">
-          <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
-          <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-        </time>
-      {% else %}
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
-          <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
-          <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-        </time>
-      {% endif %}
-      {% assign previousDate = post.date %}
-          <div class="eventlist-elemnt-infowrap">
-            <span class="eventlist-element__title">{{ post.title }}</span>
-            <span class="eventlist-element__venue">{{ post.venue }}</span><span class="eventlist-element__time">{{ post.time }}</span><span class="eventlist-element__ticket">{{ post.ticket }}</span>
-          </div>
-          <span class="eventlist-element__bullets"></span>
-        </a>
+      <div class="eventlist-element__content" id="{{ post.id }}"><!--
+      -->{% if post.date == previousDate %}
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date eventlist-element--is-hidden">
+              <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
+              <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
+            </time><!--
+       -->{% else %}
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
+              <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
+              <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
+            </time><!--
+       -->{% endif %}<!--
+       --><div class="eventlist-element__main">
+            <span class="eventlist-element__title">
+              <a class="eventlist-element__link" href="{{ post.href }}">{{ post.title }}</a>
+            </span>
+            <a class="eventlist-element__expand" href="#{{ post.id }}"><i class="eventlist-element__plus icon icon-plus"></i></a>
+            <a class="eventlist-element__collapse" href="#"><i class="eventlist-element__plus icon icon-plus"></i></a>
+          {% assign previousDate = post.date %}
+            <div class="eventlist-element__more">
+              <span class="eventlist-element__time"><span class="eventlist-element__label">Time:</span> {{ post.time }}</span>
+              <span class="eventlist-element__venue"><span class="eventlist-element__label">Venue: </span>{{ post.venue }}</span>
+              <span class="eventlist-element__ticket"><span class="eventlist-element__label">Ticket:</span> {{ post.ticket }}</span>
+            </div>
+        </div>
+      </a>
     </li>
   {% endfor %}
-  <li class="eventlist-element">
-    <a class="eventlist-element__link" href="/byoe">
-      <time class="eventlist-element__date">
-        <span class="eventlist-element__date_day">?</span>
-      </time>
-      <div class="eventlist-elemnt-infowrap">
-        <span class="eventlist-element__title">Bring Your Own Event</span>
-      </div>
-      <span class="eventlist-element__bullets"></span>
-    </a>
-  </li>
 </ol>
+
+<script>
+  (function() {
+    var listitems = document.getElementById( 'eventlist' ).children;
+    var gradientRgb = '0,0,0'
+
+    overlayGradient( listitems, gradientRgb );
+
+    function overlayGradient( elements, rgbvalue ) {
+      var increment = 1 / elements.length;
+
+      for (var i = elements.length - 1; i >= 0; i--) {
+        var bgcolor = 'rgba(' + rgbvalue + ',' + increment * i / 1.5 + ')';
+        elements[i].style.backgroundImage = '-webkit-linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
+        elements[i].style.backgroundImage = 'linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
+      };
+    }
+  })()
+</script>
 <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

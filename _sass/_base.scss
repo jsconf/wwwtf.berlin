@@ -1,30 +1,45 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-
-html {
-  font-family: 'PT Sans Narrow', sans-serif;
+body {
+  font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
   font-weight: 400;
 }
 
 body {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.333;
-  color: $font-color;
+  color: $color_font;
   -webkit-font-smoothing: antialiased;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
   height: 100%;
   @media screen and (min-width: 21.052631579em) {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   @media screen and (min-width: 29.894736842em) {
-    font-size: 1.6em;
+    font-size: 1.4em;
+  }
+}
+
+a {
+  color: saturate($color_main, 70%);
+  text-decoration: none;
+  &:hover, &:focus {
+    opacity: .75;
+  }
+}
+
+.page-header a {
+  color: $color_contrast;
+  &:hover, &:focus {
+    color: rgba($color_contrast, .75);
+  }
+}
+
+.page-header .button, .button {
+  display: inline-block;
+  padding: .5em .75em;
+  border: 2px solid $color_contrast;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: $color_main;
+    background-color: $color_contrast;;
   }
 }
 
@@ -35,64 +50,164 @@ body {
   padding: 0 0.714rem;
 }
 
-.page_header {
-  position: relative;
-  background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
+.page-header {
+  background-color: $color_main;
+ // background: url('../img/space.png') no-repeat scroll top center;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
   .site-title {
     display: block;
-    color: $contrast-color;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
-    margin-bottom: -10%;
+    margin-bottom: .5em;
+    text-align: center;
+    @media screen and (min-width: 21.052631579em) {
+      float: left;
+      text-align: left;
+    }
+  }
+  .site-nav {
+    font-size: 1rem;
+    text-align: center;
+    a {
+      display: inline-block;
+      padding: .5rem;
+      margin-left: .25rem;
+      margin-right: .25rem;
+    }
+    @media screen and (min-width: 21.052631579em) {
+      float: right;
+      text-align: right;
+    }
   }
   .title {
-    display: block;
-    margin-top: 5%;
-    font-size: 2.5em;
+    display: inline-block;
     font-weight: 700;
-    @media screen and (min-width: 21.052631579em) {
-      font-size: 2.3em;
-    }
-    @media screen and (min-width: 36.842105263em) {
-      font-size: 2.7em;
-    }
+    margin-bottom: 0;
+    line-height: 1;
   }
-  .skyline {
+  .title-subline {
     display: block;
-    width: 100%;
-    height: 100%;
-    fill: $contrast-color;
+    font-size: 1rem;
   }
 }
 
 .page_footer {
-  font-size: .842105263em;
-  padding: .4rem 0 .3rem 0;
+  font-size: 1rem;
+  padding: .5rem 0 .4rem 0;
   @media screen and (min-width: 21.052631579em) {
-   padding: .6rem 0 .5rem 0;
+   padding: .75rem 0 .6rem 0;
   }
   a{
-    color: $contrast-color;
-    text-decoration: none;
-    border-bottom: 1px dashed $contrast-color;
+    color: $color_contrast;
+    text-decoration: underline;
   }
 }
 
-.page_content{
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-
-          flex: 1;
-          -ms-flex: auto;
+.page-content{
   padding: 2rem 0;
-  overflow: hidden;
   @media screen and (min-width: 43.75em) {
     padding: 3rem 0;
   }
+}
+
+// pulls up content in order to overlay intro
+.pull-up-content {
+  margin-top: -12rem;
+}
+.pull-up-content--text {
+  padding: 1rem 2rem;
+  background-color: $color_contrast;
+}
+
+.wtf-hover {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+  &::after {
+    content: "WhatTheFest";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover::after {
+    content: "WhatTheF***";
+  }
+}
+
+.page-intro {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  clear: both;
+  background-color: lighten($color_main, 50%);
+
   a {
-    color: $main-color;
-    border-bottom: 1px dashed currentColor;
-    text-decoration: none;
+    white-space: nowrap;
+  }
+}
+
+.subnav {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      padding: .5em;
+    }
+  }
+}
+
+.icon-plus {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: "";
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background-color: white;
+    background-color: currentcolor;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  &::after {
+    content: "";
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background-color: white;
+    background-color: currentcolor;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
   }
 }

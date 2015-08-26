@@ -1,5 +1,15 @@
-$main-color: #E6332A;
-$contrast-color: #fff;
-$font-color: #575756;
+$kriesseblue: #1d4b6e;
+$jsconfpink: #E10079;
+$jsconfblue: #051add;
 
-$max-page-width: 29.375em;
+
+$color_main: $jsconfpink; //change this color to change the entire site's color scheme
+$color_contrast: #FFFFFF;
+
+$color_font: #575756;
+$color_font: desaturate(darken($color_main, 20%),80%);
+
+$color_eventlist: $kriesseblue;
+
+
+$max-page-width: 32em;
