@@ -3,8 +3,8 @@ layout: post
 title:  "Charity Coding"
 date:   2015-09-23
 venue: "Bitcrowd"
-ticket: "Ticket: Available"
-time: "Time: 10am"
+ticket: "Available"
+time: "10am"
 href: "http://www.meetup.com/Berlin-Charity-Coding/events/224899002/"
 ---
 <!-- fill in the URL of your event host page if you haven't enough
