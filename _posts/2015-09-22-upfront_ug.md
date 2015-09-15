@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "up.front usergroup"
+title:  "up.front – meetup for web design & front end"
 date:   2015-09-22
 venue: "co.up coworking space"
 ticket: "Free"
