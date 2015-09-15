@@ -8,12 +8,32 @@ class: pull-up-content--text
 <a name="top"></a>
 
 <ul class="subnav">
+<li><a href="#accommodation">Accommodation</a></li>
 <li><a href="#transport">Transport</a></li>
 <li><a href="#gettingonline">Getting Online</a></li>
 <li><a href="#money">Money</a></li>
 <li><a href="#coffee">Coffee</a></li>
 <li><a href="#fooddrink">Food and Drink</a></li>
 </ul>
+
+
+## <a name="accommodation"></a>Accommodation
+
+Due to high demand, (affordable) accommodation in the city is scarce for WWWTF.
+Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSConf (<a href="http://blog.cssconf.eu/2015/09/02/where-to-stay-in-Berlin/">original post here</a>)
+
+### Team up with other attendees
+
+WWWTF is a week full of events dedicated to the web, and many people from the industry will flock to Berlin for the occasion. We encourage attendees to meet and help each other out. Have a free couch or a guest room? Don’t mind sharing a hotel room? Can offer a ride from another city to Berlin for a fellow attendee? Tweet <a href="https://twitter.com/CSSconfeu">@CSSconfeu</a> and use the hashtags <a href="https://twitter.com/hashtag/cssconfeu">#CSSconfeu</a> & <a href="https://twitter.com/hashtag/wwwtfberlin">#wwwtfberlin</a> and they would be happy to spread the word!
+
+### Hotels and Hostels
+
+Berlin offers all of the conventional accommodation options found anywhere else. You can check availability and book hotels and hostels using services such as <a href="http://www.booking.com/">Booking.com</a>,
+<a href="http://www.agoda.com/">Agoda</a>, <a href="http://www.hrs.de/">HRS</a>.
+
+### Other accommodation options
+
+If you prefer, you can also check out private accommodation providers such as <a href="https://www.airbnb.com/s/Berlin--Germany">AirBnB</a>, or try <a href="https://www.couchsurfing.com/places/Europe/Germany/Berlin">Couchsurfing</a>.
 
 
 ## <a name="transport"></a>Transport
