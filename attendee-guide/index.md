@@ -24,7 +24,7 @@ Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSC
 
 ### Team up with other attendees
 
-WWWTF is a week full of events dedicated to the web, and many people from the industry will flock to Berlin for the occasion. We encourage attendees to meet and help each other out. Have a free couch or a guest room? Don’t mind sharing a hotel room? Can offer a ride from another city to Berlin for a fellow attendee? Tweet <a href="https://twitter.com/CSSconfeu">@CSSconfeu</a> and use the hashtags <a href="https://twitter.com/hashtag/cssconfeu">#CSSconfeu</a> & <a href="https://twitter.com/hashtag/wwwtfberlin">#wwwtfberlin</a> and they would be happy to spread the word!
+WWWTF is a week full of events dedicated to the web, and many people from the industry will flock to Berlin for the occasion. We encourage attendees to meet and help each other out. Have a free couch or a guest room? Don’t mind sharing a hotel room? Can offer a ride from another city to Berlin for a fellow attendee? Tweet at <a href="https://twitter.com/wwwtfberlin">@wwwtfberlin</a> and use the hashtag <a href="https://twitter.com/hashtag/wwwtfberlin">#wwwtfberlin</a> and we will be happy to spread the word!
 
 ### Hotels and Hostels
 
