@@ -8,7 +8,7 @@ SVG Berlin Skyline by wasat on http://www.openclipart.org/detail/27938
 Setup
 =====
 
-The site uses [jekyll](jekyllrb.com), to run the site do the following in your
+The site uses [jekyll](http://jekyllrb.com), to run the site do the following in your
 terminal:
 
 * `git clone git@github.com:janl/wwwtf.berlin.git`
@@ -17,7 +17,7 @@ terminal:
 * `bundle install`
 * `bundle exec jekyll serve --watch`
 
-The site should then be available on http://localhost:4000
+The site should then be available on [http://localhost:4000](http://localhost:4000)
 
 Create an event
 ===============
