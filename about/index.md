@@ -13,7 +13,7 @@ in favour of a name that was more inclusive to the spectrum of topics being cove
 Originally intended to be WWWTechFest, WhatTheFest sort of stuck ;)
 
 ###WWWho can join?
-Any events happening in September 2015 around web development and technologies
+Any events happening in April/May 2017 around web development and technologies
 are free to register their event. It could be networking, hacking, a conference,
 or a meetup! This site is merely a way to aggregate all the events, but you will
 need to follow the respective links on the event to register/find out more.
