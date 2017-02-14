@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JSConf EU Day 2"
-date:   2017-05-06
+date:   2017-05-07
 venue: "Arena"
 ticket: "http://2017.jsconf.eu/news/2016/11/29/tickets/"
 time: "all day"
