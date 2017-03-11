@@ -3,7 +3,7 @@ layout: post
 title:  "JSConf EU Day 1"
 date:   2017-05-06
 venue: "Arena"
-ticket: "http://2017.jsconf.eu/news/2016/11/29/tickets/"
+ticket: "Tickets Available"
 time: "all day"
 href: "http://2017.jsconf.eu/"
 ---

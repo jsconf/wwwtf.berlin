@@ -3,7 +3,7 @@ layout: post
 title:  "Offline Camp Berlin - Day 2"
 date:   2017-04-29
 venue: "Schloss Blankensee"
-ticket: "https://offlinecamp.typeform.com/to/Tohygh"
+ticket: "Sold Out"
 time: "all day"
 href: "http://offlinefirst.org/camp/"
 ---

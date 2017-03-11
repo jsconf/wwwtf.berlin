@@ -3,7 +3,7 @@ layout: post
 title:  "CSSconf EU"
 date:   2017-05-05
 venue: "Arena"
-ticket: "https://ti.to/cssconfeu/cssconfeu-2017"
+ticket: "Sold Out"
 time: "all day"
 href: "http://2017.jsconf.eu/"
 ---
