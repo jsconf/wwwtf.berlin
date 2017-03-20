@@ -1,7 +1,7 @@
 wwwtf.berlin
 =============
 
-The schedule page for wwwtf.berlin 2015
+The schedule page for wwwtf.berlin
 
 SVG Berlin Skyline by wasat on http://www.openclipart.org/detail/27938
 
