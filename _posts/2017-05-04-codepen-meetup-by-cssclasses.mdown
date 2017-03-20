@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "CodePen Meetup hosted by CSSclasses"
+date:   2017-05-04
+venue: "co.up Coworking Space"
+ticket: "free, please RSVP"
+time: "7:30 PM"
+href: "https://nvite.com/CodePenMeetup/dwwe24"
+---
+<!-- fill in the URL of your event host page if you haven't enough information for a detail page, so the event link won't point on the detail page at all -->
