@@ -20,7 +20,7 @@ class: pull-up-content--text
 ## <a name="accommodation"></a>Accommodation
 
 Due to high demand, (affordable) accommodation in the city is scarce for WWWTF.
-Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSConf (<a href="http://blog.cssconf.eu/2015/09/02/where-to-stay-in-Berlin/">original post here</a>)
+Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSconf (<a href="http://blog.cssconf.eu/2015/09/02/where-to-stay-in-Berlin/">original post here</a>)
 
 ### Team up with other attendees
 
