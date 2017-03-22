@@ -1,21 +1,24 @@
-<header class="page-header">
-  <div class="wrap">
-    <a class="site-title" href="{{ site.baseurl }}/">
-      <h1 class="title wtf-hover">WhatTheFest</h1>
-      <span class="title-subline">May 2017&emsp;|&emsp;wwwtf.berlin</span>
-    </a>
-    <div class="site-nav">
-      <a href="/about/">About</a>
-      <a href="/attendee-guide/">Attendee Guide</a>
-      <a href="https://twitter.com/wwwtfberlin">Twitter</a>
-      <a href="/add-your-event/" class="button">Add your own Event</a>
-    </div>
-  </div>
+<header class="header">
+  <a href="{{ site.baseurl }}" class="header__logo">
+    wwwtf <!-- Add the SVG logo here -->
+  </a>
+  <nav class="header__nav">
+    <ul class="nav">
+      <li class="nav__item">
+        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">GitHub</a>
+      </li>
+      <li class="nav__item">
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">Twitter</a>
+      </li>
+      <li class="nav__item">
+        <a href="/about/" class="nav__link">About</a>
+      </li>
+      <li class="nav__item">
+        <a href="/attendee-guide/" class="nav__link">Attendee Guide</a>
+      </li>
+      <li class="nav__item">
+        <a href="/add-your-event/" class="nav__link">Add Your Own Event</a>
+      </li>
+    </ul>
+  </nav>
 </header>
-<div class="page-intro">
-  <div class="wrap">
-    <p>
-      {{ page.intro }}
-    </p>
-  </div>
-</div>
