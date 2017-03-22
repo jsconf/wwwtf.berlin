@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  margin: 0;
+  font-size: .875rem;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__item {
+  margin-left: 2rem;
+}
+
+.nav__link {
+  color: #fff;
+  transition: color .2s ease-in-out;
+
+  &:hover {
+    color: rgba(#fff, .85);
+  }
+
+  &:active {
+    color: rgba(#fff, .7);
+  }
+}
+
+.nav--footer {
+}

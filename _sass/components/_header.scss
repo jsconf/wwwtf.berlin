@@ -1,0 +1,11 @@
+.header {
+  background-color: $color-blue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header__logo {
+  color: #fff;
+}
