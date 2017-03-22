@@ -5,6 +5,11 @@ baseurl: ""
 url: "http://wwwtf.berlin"
 exclude:
   - README.md
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Site data
+github_repo: "janl/wwwtf.berlin"
+twitter_username: wwwtfberlin
