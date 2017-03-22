@@ -3,35 +3,17 @@
 ---
 @charset "utf-8";
 
-@import "normalize";
-@import "vars";
-@import "mixins";
-@import "base";
-@import "list";
+// --- vendors ----------------------------------------------------------------
+@import "vendor/normalize";
 
-html {
-  box-sizing: border-box;
-}
+// --- base -------------------------------------------------------------------
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+@import "base/variables";
+@import "base/layout";
+@import "base/core";
 
-.page_footer {
-  background-color: $color_main;
-  color: $color_contrast;
-  .heart {
-    @include hearticon(8px);
-  }
-}
+// --- components -------------------------------------------------------------
 
-.heart-wrap {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-}
-
-.intro {
-  text-align: center;
-  margin: 0 auto 2rem;
-}
+@import "components/header";
+@import "components/intro";
+@import "components/nav";
