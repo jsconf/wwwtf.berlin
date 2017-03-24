@@ -1,6 +1,15 @@
 // --- colors -----------------------------------------------------------------
 
 $color-blue: #051add;
-$color-yellow: #ffee90a;
+$color-yellow: #ffe90a;
 $color-gray-light: #f6f6f6;
+$color-gray: #718da2;
 $color-gray-dark: #21303b;
+
+// --- fonts ------------------------------------------------------------------
+
+$font-regular-name: "GT Walsheim Pro Regular";
+$font-medium-name: "GT Walsheim Pro Medium";
+
+$font-regular: $font-regular-name, sans-serif;
+$font-medium: $font-medium-name, sans-serif;

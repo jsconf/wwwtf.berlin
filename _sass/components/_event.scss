@@ -1,0 +1,49 @@
+.event {
+  display: flex;
+  font-family: $font-medium;
+  justify-content: space-between;
+}
+
+.event__day,
+.event__date,
+.event__name {
+  font-size: 1.25rem;
+}
+
+.event__day {
+  width: 10%;
+}
+
+.event__date {
+  width: 15%;
+}
+
+.event__duration,
+.event__link {
+  color: $color-gray;
+  font-size: .875rem;
+}
+
+.event__details {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.event__name {
+  margin: 0;
+}
+
+.event__info {
+  color: $color-gray;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.event__link {
+  margin-right: 1rem;
+}
+
+.event__attendance {
+  white-space: nowrap;
+}

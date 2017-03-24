@@ -1,40 +1,48 @@
 ---
 layout: default
 title: wwwtf.berlin
-intro: A full week of events for and by the web tech community in Berlin. <br><br><small>We welcome you to attend, and encourage you to <a href="add-your-event">add your own event</a>.<br>Are you travelling to Berlin? Check out our <a href="/attendee-guide/">Attendee Guide</a>.</small>
-class: pull-up-content--list
 ---
 
 {% assign previousDate = site.date %}
 
-<ol class="events">
-  {% for post in site.posts reversed %}
-  <li class="events__item">
-    <article class="event">
-      <div class="event__date">
-        Fri Apr 28<br>
-        <span class="event__duration">all day</span>
-      </div>
-      <div class="event__details">
-        <h2 class="event__name">{{ post.title }}</h2>
-        <ul class="event__info">
-          <li>
-            <a href="#" class="event__link event__link--location">Location</a>
-          </li>
-          <li>
-            <a href="#" class="event__link event__link--website">Website</a>
-          </li>
-          <li>
-            <a href="#" class="event__link event__link--twitter">Location</a>
-          </li>
-        </ul>
-      </div>
-      <div class="event__attendance">
-        <span class="event__status event__status--sold-out">Sold Out :(</span>
-        <span class="event__status">Just Show Up! :)</span>
-        <a href="#" class="event__status">Buy Ticket</a>
-      </div>
-    </article>
-  </li>
-  {% endfor %}
-</ol>
+<div class="container">
+  <ol class="events">
+    {% for post in site.posts reversed %}
+      <li class="events__item">
+        <article class="event">
+          <div class="event__day">
+            Fri
+          </div>
+          <div class="event__date">
+            <time datetime="">
+              Apr 28
+            </time>
+            <div class="event__duration">{{ post.time }}</div>
+          </div>
+          <div class="event__details">
+            <h2 class="event__name">{{ post.title }}</h2>
+            <ul class="event__info">
+              <li>
+                <span class="event__link event__link--location">{{ post.venue }}</span>
+              </li>
+              <li>
+                <a href="{{ post.href }}" class="event__link event__link--website">Website</a>
+              </li>
+              <!--{% if post.twitter %}-->
+                <li>
+                  <!--<a href="{{ post.twitter }}" class="event__link event__link&#45;&#45;twitter">Twitter</a>-->
+                  <a href="#" class="event__link event__link--twitter">Twitter</a>
+                </li>
+              <!--{% endif %}-->
+            </ul>
+          </div>
+          <div class="event__attendance">
+            <span class="event__status event__status--sold-out">Sold Out :(</span>
+            <!--<span class="event__status">Just Show Up! :)</span>-->
+            <!--<a href="#" class="event__status">Buy Ticket</a>-->
+          </div>
+        </article>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

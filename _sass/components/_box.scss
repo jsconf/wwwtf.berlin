@@ -1,0 +1,32 @@
+.box {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: $color-blue;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.box__logo {
+  color: #fff;
+}
+
+.box--intro {
+  padding: 2rem 0 4rem;
+  text-align: center;
+
+  .box__headline {
+    margin: 0 0 2rem;
+  }
+
+  .box__location {
+    font-size: .875rem;
+    margin-top: 2rem;
+  }
+}

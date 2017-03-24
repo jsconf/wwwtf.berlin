@@ -1,9 +1,16 @@
 body {
   background-color: #fff;
   color: $color-gray-dark;
+  font-family: $font-regular;
   font-size: 1rem;
 }
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-medium;
 }
