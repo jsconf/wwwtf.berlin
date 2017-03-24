@@ -1,0 +1,61 @@
+.icon {
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon--logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon--logo,
+.icon--nav,
+.icon--plus {
+  fill: #fff;
+  transition: fill .2s ease-in-out;
+
+  &:hover {
+    fill: rgba(#fff, .85);
+  }
+
+  &:active {
+    fill: rgba(#fff, .7);
+  }
+}
+
+.icon--nav {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.icon--small {
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon--inline {
+  display: inline-block;
+}
+
+.icon--event-info {
+  fill: rgba($color-gray, .5);
+  position: relative;
+  top: 3px;
+}
+
+.icon--footer {
+  fill: #fff;
+  position: relative;
+  top: 2px;
+}
+
+.icon--globe {
+  margin-right: .15rem;
+}
+
+.icon--plus {
+  left: 5px;
+  position: absolute;
+  top: 6px;
+}

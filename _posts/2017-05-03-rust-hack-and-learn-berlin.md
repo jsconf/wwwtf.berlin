@@ -3,7 +3,7 @@ layout: post
 title:  "OpenTechSchool: Rust Hack and Learn Berlin"
 date:   2017-05-03
 venue: "Mozilla Office"
-ticket: "free, please RSVP"
+ticket: "rsvp"
 time: "7:00 PM"
 href: "https://www.meetup.com/opentechschool-berlin/events/krnczlywhbfb/"
 ---

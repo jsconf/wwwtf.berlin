@@ -1,12 +1,25 @@
 <footer class="box">
-  <div>WWWTF 2017. From the community for the community with ❤️.</div>
+  <div>
+    WWWTF 2017. From the community for the community with
+    <svg class="icon icon--footer icon--inline icon--small">
+      <use xlink:href="#icon-heart"></use>
+    </svg>
+  </div>
   <nav>
-    <ul class="nav nav--footer">
+    <ul class="nav">
       <li class="nav__item">
-        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">GitHub</a>
+        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
       </li>
       <li class="nav__item">
-        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">Twitter</a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
       </li>
     </ul>
   </nav>

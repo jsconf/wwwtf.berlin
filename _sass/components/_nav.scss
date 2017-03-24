@@ -1,3 +1,11 @@
+.nav-container {
+  display: none;
+
+  @media screen and (min-width: 40rem) {
+    display: block;
+  }
+}
+
 .nav {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8,7 +16,7 @@
 }
 
 .nav__item {
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 .nav__link {
@@ -29,12 +37,6 @@
 
 .nav__link--featured {
   border-color: $color-yellow;
-
-  &::before {
-    content: "+";
-    margin-right: .25rem;
-  }
-}
-
-.nav--footer {
+  padding-left: 2rem;
+  position: relative;
 }

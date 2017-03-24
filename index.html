@@ -11,35 +11,74 @@ title: wwwtf.berlin
       <li class="events__item">
         <article class="event">
           <div class="event__day">
-            Fri
+            {{ post.date | date: "%a" }}
           </div>
           <div class="event__date">
-            <time datetime="">
-              Apr 28
+            <time datetime="{{ post.date }}">
+              {{ post.date | date: "%-d %b" }}
             </time>
             <div class="event__duration">{{ post.time }}</div>
+            <div class="event__attendance event__attendance--small">
+              {% if post.ticket == 'sold-out' %}
+                <span class="event__status event__status--sold-out">Sold Out :(</span>
+              {% endif %}
+              {% if post.ticket == 'free' %}
+                <span class="event__status">Just Show Up! :)</span>
+              {% endif %}
+              {% if post.ticket == 'rsvp' %}
+                <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
+              {% endif %}
+              {% if post.ticket == 'buy' %}
+                <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
+              {% endif %}
+            </div>
           </div>
           <div class="event__details">
-            <h2 class="event__name">{{ post.title }}</h2>
+            <h2 class="event__name">
+              <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a>
+            </h2>
             <ul class="event__info">
               <li>
-                <span class="event__link event__link--location">{{ post.venue }}</span>
+                <span class="event__link event__link--location">
+                  <svg class="icon icon--inline icon--event-info icon--small">
+                    <use xlink:href="#icon-marker"></use>
+                  </svg>
+                  {{ post.venue }}
+                </span>
               </li>
               <li>
-                <a href="{{ post.href }}" class="event__link event__link--website">Website</a>
+                <a href="{{ post.href }}" class="event__link event__link--website">
+                  <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                    <use xlink:href="#icon-globe"></use>
+                  </svg>
+                  Website
+                </a>
               </li>
-              <!--{% if post.twitter %}-->
+              {% if post.twitter %}
                 <li>
-                  <!--<a href="{{ post.twitter }}" class="event__link event__link&#45;&#45;twitter">Twitter</a>-->
-                  <a href="#" class="event__link event__link--twitter">Twitter</a>
+                  <a href="#" class="event__link event__link--twitter">
+                    <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                      <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                    Twitter
+                  </a>
                 </li>
-              <!--{% endif %}-->
+              {% endif %}
             </ul>
           </div>
           <div class="event__attendance">
-            <span class="event__status event__status--sold-out">Sold Out :(</span>
-            <!--<span class="event__status">Just Show Up! :)</span>-->
-            <!--<a href="#" class="event__status">Buy Ticket</a>-->
+            {% if post.ticket == 'sold-out' %}
+              <span class="event__status event__status--sold-out">Sold Out :(</span>
+            {% endif %}
+            {% if post.ticket == 'free' %}
+              <span class="event__status">Just Show Up! :)</span>
+            {% endif %}
+            {% if post.ticket == 'rsvp' %}
+              <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
+            {% endif %}
+            {% if post.ticket == 'buy' %}
+              <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
+            {% endif %}
           </div>
         </article>
       </li>

@@ -1,14 +1,24 @@
 <header class="box">
-  <a href="{{ site.baseurl }}" class="box__logo">
-    <img src="/img/svg/logo.svg" alt="WWWTF">
+  <a href="/">
+    <svg class="icon icon--logo">
+      <use xlink:href="#icon-logo"></use>
+    </svg>
   </a>
-  <nav>
-    <ul class="nav">
+  <nav class="nav-container">
+    <ul class="nav nav--header">
       <li class="nav__item">
-        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">GitHub</a>
+        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
       </li>
       <li class="nav__item">
-        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">Twitter</a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
       </li>
       <li class="nav__item">
         <a href="/about/" class="nav__link">About</a>
@@ -17,7 +27,12 @@
         <a href="/attendee-guide/" class="nav__link">Attendee Guide</a>
       </li>
       <li class="nav__item">
-        <a href="/add-your-event/" class="nav__link nav__link--featured">Add Your Own Event</a>
+        <a href="/add-your-event/" class="nav__link nav__link--featured">
+          <svg class="icon icon--plus">
+            <use xlink:href="#icon-plus"></use>
+          </svg>
+          Add Your Own Event
+        </a>
       </li>
     </ul>
   </nav>

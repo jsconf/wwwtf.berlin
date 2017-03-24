@@ -10,11 +10,13 @@
 
 @import "base/variables";
 @import "base/layout";
+@import "base/mixins";
 @import "base/core";
 
 // --- components -------------------------------------------------------------
 
 @import "components/box";
-@import "components/events";
 @import "components/event";
+@import "components/events";
+@import "components/icon";
 @import "components/nav";

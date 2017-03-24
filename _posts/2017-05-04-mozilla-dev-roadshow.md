@@ -3,7 +3,7 @@ layout: post
 title:  "Mozilla Developer Roadshow"
 date:   2017-05-04
 venue: "The Hub @ Zalando"
-ticket: "free, please RSVP"
+ticket: "rsvp"
 time: "6:30 PM"
 href: "https://www.meetup.com/Zalando-Tech-Events-Berlin/events/238078772/"
 ---
