@@ -1,6 +1,10 @@
 .event {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   font-family: $font-medium;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -35,6 +39,8 @@
 
 .event__info {
   color: $color-gray;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding-left: 0;
