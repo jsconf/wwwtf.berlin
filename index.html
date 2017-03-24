@@ -18,20 +18,8 @@ title: wwwtf.berlin
               {{ post.date | date: "%-d %b" }}
             </time>
             <div class="event__duration">{{ post.time }}</div>
-            <div class="event__attendance event__attendance--small">
-              {% if post.ticket == 'sold-out' %}
-                <span class="event__status event__status--sold-out">Sold Out :(</span>
-              {% endif %}
-              {% if post.ticket == 'free' %}
-                <span class="event__status">Just Show Up! :)</span>
-              {% endif %}
-              {% if post.ticket == 'rsvp' %}
-                <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
-              {% endif %}
-              {% if post.ticket == 'buy' %}
-                <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
-              {% endif %}
-            </div>
+            {% assign modifier = 'small' %}
+            {% include event-cta.html modifier=modifier post=post %}
           </div>
           <div class="event__details">
             <h2 class="event__name">
@@ -66,20 +54,8 @@ title: wwwtf.berlin
               {% endif %}
             </ul>
           </div>
-          <div class="event__attendance">
-            {% if post.ticket == 'sold-out' %}
-              <span class="event__status event__status--sold-out">Sold Out :(</span>
-            {% endif %}
-            {% if post.ticket == 'free' %}
-              <span class="event__status">Just Show Up! :)</span>
-            {% endif %}
-            {% if post.ticket == 'rsvp' %}
-              <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
-            {% endif %}
-            {% if post.ticket == 'buy' %}
-              <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
-            {% endif %}
-          </div>
+          {% assign modifier = '' %}
+          {% include event-cta.html modifier=modifier post=post %}
         </article>
       </li>
     {% endfor %}

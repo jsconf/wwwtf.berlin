@@ -1,0 +1,14 @@
+<div class="event__attendance {% if modifier != '' %}event__attendance--{{ modifier }}{% endif %}">
+  {% if post.ticket == 'sold-out' %}
+    <span class="event__status event__status--sold-out">Sold Out :(</span>
+  {% endif %}
+  {% if post.ticket == 'free' %}
+    <span class="event__status">Just Show Up! :)</span>
+  {% endif %}
+  {% if post.ticket == 'rsvp' %}
+    <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
+  {% endif %}
+  {% if post.ticket == 'buy' %}
+    <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
+  {% endif %}
+</div>
