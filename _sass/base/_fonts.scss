@@ -1,0 +1,15 @@
+@font-face {
+  font-family: $font-regular-name;
+  src: url('/fonts/GT-Walsheim-Regular.eot');
+  src: url('/fonts/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/GT-Walsheim-Regular.woff') format('woff'),
+  url('/fonts/GT-Walsheim-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: $font-medium-name;
+  src: url('/fonts/GT-Walsheim-Medium.eot');
+  src: url('/fonts/GT-Walsheim-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/GT-Walsheim-Medium.woff') format('woff'),
+  url('/fonts/GT-Walsheim-Medium.ttf')  format('truetype')
+}
