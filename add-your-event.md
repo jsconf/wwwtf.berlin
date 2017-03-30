@@ -1,9 +1,7 @@
 ---
 layout: page
-title: wwwtf.berlin Add your event
+title: Add Your Own Event
 ---
-
-# Add your event
 
 Everyone can add events to our schedule. Yes, you can, too. Even your company. We will promote your event, just as we promote all the others.
 

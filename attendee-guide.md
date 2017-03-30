@@ -1,6 +1,6 @@
 ---
 layout: page
-title: wwwtf.berlin Welcome
+title: Welcome to Berlin
 ---
 
 <a name="top"></a>
@@ -29,7 +29,7 @@ title: wwwtf.berlin Welcome
 ## <a name="accommodation"></a>Accommodation
 
 Due to high demand, (affordable) accommodation in the city is scarce for WWWTF.
-Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSconf (<a href="http://blog.cssconf.eu/2015/09/02/where-to-stay-in-Berlin/">original post here</a>)
+Here are some tips on finding/offering accommodation in Berlin, courtesy of <a href="http://2017.cssconf.eu">CSSconf EU</a>.
 
 ### Team up with other attendees
 

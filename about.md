@@ -1,11 +1,11 @@
 ---
 layout: page
-title: wwwtf.berlin Add your event
+title: About WWWTF Berlin
 ---
 
 ## WTF is WWWTF?
 WhatTheFest is the series of events formerly known as JSFest!
-With so many events surrounding web technologies it was about time we dropped the 'JS',
+With so many events surrounding web technologies it was about time we dropped the “JS”,
 in favour of a name that was more inclusive to the spectrum of topics being covered.
 
 Originally intended to be WWWTechFest, WhatTheFest sort of stuck ;)
@@ -18,5 +18,5 @@ need to follow the respective links on the event to register/find out more.
 
 ## HoWWW can I contribute?
 This site is created with love by members of the Berlin web technologies community.
-If you want to contribute, fork the repo linked in the footer of the page. We
-welcome pull requests, and improvements :)
+You want to contribute your own event? <a href="/add-your-event">Add it here</a>. We also
+welcome pull requests and any suggestions for improvements :)
