@@ -13,6 +13,7 @@
   margin: 0;
   font-size: .875rem;
   list-style: none;
+  padding: 0;
 }
 
 .nav__item {
@@ -39,4 +40,12 @@
   border-color: $color-yellow;
   padding-left: 2rem;
   position: relative;
+}
+
+.nav--footer {
+  display: none;
+
+  @include medium {
+    display: flex;
+  }
 }

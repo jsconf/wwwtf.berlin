@@ -14,11 +14,18 @@
 }
 
 .box--intro {
+  bottom: 0;
+  box-sizing: border-box;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 2rem 0 4rem;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
   text-align: center;
+  top: 0;
+  z-index: 1;
 
   .box__headline {
     margin: 0 0 2rem;
@@ -27,5 +34,46 @@
   .box__location {
     font-size: .875rem;
     margin-top: 2rem;
+  }
+
+  @include medium {
+    font-size: 1.5rem;
+
+    .box__headline {
+      font-size: 3rem;
+    }
+  }
+
+  @include wide {
+    font-size: 2rem;
+
+    .box__headline {
+      font-size: 4rem;
+    }
+  }
+}
+
+.box--header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.box--footer {
+  bottom: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 2;
+
+  @include medium {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }

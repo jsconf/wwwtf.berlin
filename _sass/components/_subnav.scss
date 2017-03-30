@@ -1,0 +1,20 @@
+.subnav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.subnav__item {
+}
+
+.subnav__link {
+  padding: .5rem;
+}

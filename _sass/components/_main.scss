@@ -1,0 +1,14 @@
+.main {
+  margin: 7rem 0;
+
+  a:hover {
+    color: rgba($color-blue, .65);
+  }
+}
+
+.main--events {
+  background-color: white;
+  margin: 100vh 0 0;
+  position: relative;
+  z-index: 2;
+}

@@ -1,21 +1,30 @@
 ---
-layout: default
+layout: page
 title: wwwtf.berlin Welcome
-intro: To help you discover Berlin, we've put together the below guide with some tips and lists of our favourite things. We're sure you'll discover heaps of your own cool stuff while you're here, but this will hopefully get you started!
-class: pull-up-content--text
 ---
 
 <a name="top"></a>
 
 <ul class="subnav">
-<li><a href="#accommodation">Accommodation</a></li>
-<li><a href="#transport">Transport</a></li>
-<li><a href="#gettingonline">Getting Online</a></li>
-<li><a href="#money">Money</a></li>
-<li><a href="#coffee">Coffee</a></li>
-<li><a href="#fooddrink">Food and Drink</a></li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#accommodation">Accommodation</a>
+  </li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#transport">Transport</a>
+  </li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#gettingonline">Getting Online</a>
+  </li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#money">Money</a>
+  </li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#coffee">Coffee</a>
+  </li>
+  <li class="subnav__item">
+    <a class="subnav__link" href="#fooddrink">Food and Drink</a>
+  </li>
 </ul>
-
 
 ## <a name="accommodation"></a>Accommodation
 

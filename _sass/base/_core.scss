@@ -6,7 +6,9 @@ body {
 }
 
 a {
+  color: $color-blue;
   text-decoration: none;
+  transition: color .2s ease-in-out;
 }
 
 h1,

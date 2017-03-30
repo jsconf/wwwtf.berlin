@@ -5,59 +5,63 @@ title: wwwtf.berlin
 
 {% assign previousDate = site.date %}
 
-<div class="container">
-  <ol class="events">
-    {% for post in site.posts reversed %}
-      <li class="events__item">
-        <article class="event">
-          <div class="event__day">
-            {{ post.date | date: "%a" }}
-          </div>
-          <div class="event__date">
-            <time datetime="{{ post.date }}">
-              {{ post.date | date: "%-d %b" }}
-            </time>
-            <div class="event__duration">{{ post.time }}</div>
-            {% assign modifier = 'small' %}
-            {% include event-cta.html modifier=modifier post=post %}
-          </div>
-          <div class="event__details">
-            <h2 class="event__name">
-              <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a>
-            </h2>
-            <ul class="event__info">
-              <li>
-                <span class="event__link event__link--location">
-                  <svg class="icon icon--inline icon--event-info icon--small">
-                    <use xlink:href="#icon-marker"></use>
-                  </svg>
-                  {{ post.venue }}
-                </span>
-              </li>
-              <li>
-                <a href="{{ post.href }}" class="event__link event__link--website">
-                  <svg class="icon icon--inline icon--event-info icon--small icon--globe">
-                    <use xlink:href="#icon-globe"></use>
-                  </svg>
-                  Website
-                </a>
-              </li>
-              {% if post.twitter %}
+{% include intro.html %}
+
+<main class="main main--events">
+  <div class="container">
+    <ol class="events">
+      {% for post in site.posts reversed %}
+        <li class="events__item">
+          <article class="event">
+            <div class="event__day">
+              {{ post.date | date: "%a" }}
+            </div>
+            <div class="event__date">
+              <time datetime="{{ post.date }}">
+                {{ post.date | date: "%-d %b" }}
+              </time>
+              <div class="event__duration">{{ post.time }}</div>
+              {% assign modifier = 'small' %}
+              {% include event-cta.html modifier=modifier post=post %}
+            </div>
+            <div class="event__details">
+              <h2 class="event__name">
+                <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a>
+              </h2>
+              <ul class="event__info">
                 <li>
-                  <a href="#" class="event__link event__link--twitter">
-                    <svg class="icon icon--inline icon--event-info icon--small icon--globe">
-                      <use xlink:href="#icon-twitter"></use>
+                  <span class="event__link event__link--location">
+                    <svg class="icon icon--inline icon--event-info icon--small">
+                      <use xlink:href="#icon-marker"></use>
                     </svg>
-                    Twitter
+                    {{ post.venue }}
+                  </span>
+                </li>
+                <li>
+                  <a href="{{ post.href }}" class="event__link event__link--website">
+                    <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                      <use xlink:href="#icon-globe"></use>
+                    </svg>
+                    Website
                   </a>
                 </li>
-              {% endif %}
-            </ul>
-          </div>
-          {% assign modifier = '' %}
-          {% include event-cta.html modifier=modifier post=post %}
-        </article>
-      </li>
-    {% endfor %}
-  </ol>
-</div>
+                {% if post.twitter %}
+                  <li>
+                    <a href="#" class="event__link event__link--twitter">
+                      <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                        <use xlink:href="#icon-twitter"></use>
+                      </svg>
+                      Twitter
+                    </a>
+                  </li>
+                {% endif %}
+              </ul>
+            </div>
+            {% assign modifier = '' %}
+            {% include event-cta.html modifier=modifier post=post %}
+          </article>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</main>
