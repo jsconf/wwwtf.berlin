@@ -132,6 +132,10 @@ a.event__link:hover {
 
 .event__status--buy-ticket {
   color: $color-blue;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 @include medium {
