@@ -1,0 +1,23 @@
+.scroll-indicator {
+  display: block;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  bottom: 6rem;
+  right: calc(50% - 1rem);
+  transform: rotate(-135deg);
+  &::before, &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background: $color-yellow;
+  }
+  &::before {
+    width: 1rem;
+    height: .25rem;
+  }
+  &::after {
+    width: .25rem;
+    height: 1rem;
+ }
+}
