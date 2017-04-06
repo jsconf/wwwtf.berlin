@@ -1,23 +1,55 @@
 .scroll-indicator {
+  -webkit-animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
   display: block;
   position: absolute;
   width: 1rem;
   height: 1rem;
   bottom: 6rem;
   right: calc(50% - 1rem);
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
   transform: rotate(-135deg);
+  transition: bottom 1.5s ease-in-out;
+
   &::before, &::after {
     position: absolute;
     content: '';
     display: block;
     background: $color-yellow;
   }
+
   &::before {
     width: 1rem;
     height: .25rem;
   }
+
   &::after {
     width: .25rem;
     height: 1rem;
- }
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 6rem;
+  }
+  50% {
+    bottom: 5rem;
+  }
+  100% {
+    bottom: 6rem;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 6rem;
+  }
+  50% {
+    bottom: 5rem;
+  }
+  100% {
+    bottom: 6rem;
+  }
 }
