@@ -1,61 +1,67 @@
 ---
 layout: default
 title: wwwtf.berlin
-intro: A full week of events for and by the web tech community in Berlin. <br><br><small>We welcome you to attend, and encourage you to <a href="add-your-event">add your own event</a>.<br>Are you travelling to Berlin? Check out our <a href="/attendee-guide/">Attendee Guide</a>.</small>
-class: pull-up-content--list
 ---
 
 {% assign previousDate = site.date %}
 
-<ol class="eventlist" id="eventlist">
-  {% for post in site.posts reversed %}
-    <li class="eventlist-element">
-      <div class="eventlist-element__content" id="{{ post.id }}"><!--
-      -->{% if post.date == previousDate %}
-            <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date eventlist-element--is-hidden">
-              <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
-              <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-            </time><!--
-       -->{% else %}
-            <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
-              <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
-              <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
-            </time><!--
-       -->{% endif %}<!--
-       --><div class="eventlist-element__main">
-            <span class="eventlist-element__title">
-              <a class="eventlist-element__link" href="{{ post.href }}">{{ post.title }}</a>
-            </span>
-            <a class="eventlist-element__expand" href="#{{ post.id }}"><i class="eventlist-element__plus icon icon-plus"></i></a>
-            <a class="eventlist-element__collapse" href="#"><i class="eventlist-element__plus icon icon-plus"></i></a>
-          {% assign previousDate = post.date %}
-            <div class="eventlist-element__more">
-              <span class="eventlist-element__time"><span class="eventlist-element__label">Time:</span> {{ post.time }}</span>
-              <span class="eventlist-element__venue"><span class="eventlist-element__label">Venue: </span>{{ post.venue }}</span>
-              <span class="eventlist-element__ticket"><span class="eventlist-element__label">Ticket:</span> {{ post.ticket }}</span>
+{% include intro.html %}
+
+<main class="main main--events" id="events">
+  <div class="container">
+    <ol class="events">
+      {% for post in site.posts reversed %}
+        <li class="events__item">
+          <article class="event">
+            <div class="event__day">
+              {{ post.date | date: "%a" }}
             </div>
-        </div>
-      </a>
-    </li>
-  {% endfor %}
-</ol>
-
-<script>
-  (function() {
-    var listitems = document.getElementById( 'eventlist' ).children;
-    var gradientRgb = '0,0,0'
-
-    overlayGradient( listitems, gradientRgb );
-
-    function overlayGradient( elements, rgbvalue ) {
-      var increment = 1 / elements.length;
-
-      for (var i = elements.length - 1; i >= 0; i--) {
-        var bgcolor = 'rgba(' + rgbvalue + ',' + increment * i / 1.5 + ')';
-        elements[i].style.backgroundImage = '-webkit-linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
-        elements[i].style.backgroundImage = 'linear-gradient(' + bgcolor + ', ' + bgcolor + ')';
-      };
-    }
-  })()
-</script>
-<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+            <div class="event__date">
+              <time datetime="{{ post.date }}">
+                {{ post.date | date: "%-d %b" }}
+              </time>
+              <div class="event__duration">{{ post.time }}</div>
+              {% assign modifier = 'small' %}
+              {% include event-cta.html modifier=modifier post=post %}
+            </div>
+            <div class="event__details">
+              <h2 class="event__name">
+                <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a>
+              </h2>
+              <ul class="event__info">
+                <li>
+                  <span class="event__link event__link--location">
+                    <svg class="icon icon--inline icon--event-info icon--small">
+                      <use xlink:href="#icon-marker"></use>
+                    </svg>
+                    {{ post.venue }}
+                  </span>
+                </li>
+                <li>
+                  <a href="{{ post.href }}" class="event__link event__link--website">
+                    <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                      <use xlink:href="#icon-globe"></use>
+                    </svg>
+                    Website
+                  </a>
+                </li>
+                {% if post.twitter %}
+                  <li>
+                    <a href="#" class="event__link event__link--twitter">
+                      <svg class="icon icon--inline icon--event-info icon--small icon--globe">
+                        <use xlink:href="#icon-twitter"></use>
+                      </svg>
+                      Twitter
+                    </a>
+                  </li>
+                {% endif %}
+              </ul>
+            </div>
+            {% assign modifier = '' %}
+            {% include event-cta.html modifier=modifier post=post %}
+          </article>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</main>

@@ -1,26 +1,12 @@
 ---
-layout: default
-title: wwwtf.berlin Welcome
-intro: To help you discover Berlin, we've put together the below guide with some tips and lists of our favourite things. We're sure you'll discover heaps of your own cool stuff while you're here, but this will hopefully get you started!
-class: pull-up-content--text
+layout: page
+title: Welcome to Berlin
 ---
 
-<a name="top"></a>
-
-<ul class="subnav">
-<li><a href="#accommodation">Accommodation</a></li>
-<li><a href="#transport">Transport</a></li>
-<li><a href="#gettingonline">Getting Online</a></li>
-<li><a href="#money">Money</a></li>
-<li><a href="#coffee">Coffee</a></li>
-<li><a href="#fooddrink">Food and Drink</a></li>
-</ul>
-
-
-## <a name="accommodation"></a>Accommodation
+## Accommodation
 
 Due to high demand, (affordable) accommodation in the city is scarce for WWWTF.
-Here are some tips on finding/offering accommodation in Berlin, courtesy of CSSConf (<a href="http://blog.cssconf.eu/2015/09/02/where-to-stay-in-Berlin/">original post here</a>)
+Here are some tips on finding/offering accommodation in Berlin, courtesy of <a href="http://2017.cssconf.eu">CSSconf EU</a>.
 
 ### Team up with other attendees
 
@@ -36,7 +22,7 @@ Berlin offers all of the conventional accommodation options found anywhere else.
 If you prefer, you can also check out private accommodation providers such as <a href="https://www.airbnb.com/s/Berlin--Germany">AirBnB</a>, or try <a href="https://www.couchsurfing.com/places/Europe/Germany/Berlin">Couchsurfing</a>.
 
 
-## <a name="transport"></a>Transport
+## Transport
 
 If you're coming to Berlin via an airport, you'll probably want to go to Alexanderplatz and then get your bearings from there. When in doubt, or if you're not going to Alexanderplatz, The [BVG journey planner](http://www.bvg.de/index.php/en/index.html) is quite good, as are the route planning apps listed below.
 
@@ -113,7 +99,7 @@ If you're exploring and not spending the day at a conference or working, a day t
 ### Taxis
 If you can't immediately find an available taxi, use the [mytaxi app](https://www.mytaxi.com/en/home.html) to hail a taxi.
 
-## <a name="gettingonline"></a>Getting Online
+## Getting Online
 
 ### Getting a data plan
 
@@ -145,7 +131,7 @@ A lot of places offer free wifi, usually you just have to ask for the password, 
 
 Be a good sport and buy a coffee, meal, beer, whatever so cafes and bars will continue to supply this hospitality to everyone.
 
-## <a name="money"></a>Money
+## Money
 
 Berlin operates mostly on cash, so you'll want some.
 
@@ -163,7 +149,7 @@ While Berlin is quite a safe city, there are still pick-pockets. If you're getti
 I use the [Geldautomat Suche](https://itunes.apple.com/de/app/geldautomat-suche-ihre-kostenlose/id438417025?mt=8) app to find banks in CashGroup (which means I can take out cash without fees). The app also lists cash machines for non-CashGroup banks.
 
 
-## <a name="coffee"></a>Coffee
+## Coffee
 
 Caffeination is important.
 
@@ -171,7 +157,7 @@ There are a number of really good coffee places in Berlin. Your friendly residen
 
 A [list of some great coffee places](https://foursquare.com/user/79085/list/coffee) on Foursquare.
 
-## <a name="fooddrink"></a>Food & Drink
+## Food & Drink
 
 Here are a few more lists that might be of interest to you
 
@@ -182,5 +168,3 @@ Here are a few more lists that might be of interest to you
 * [Berlin bars](https://foursquare.com/user/79085/list/berlin-bars)
 
 The above foursquare lists and article are some awesome tips, tricks and places curated and recommended by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
-
-<a href="#top">Back to Top</a>

@@ -1,0 +1,13 @@
+.main {
+  min-height: 100vh;
+  margin: 7rem 0;
+  z-index: 2;
+  position: relative;
+  background-color: white;
+  margin-bottom: 4.5rem; // to leave room for the footer
+  padding-bottom: 4.5rem;
+}
+
+.main--events {
+  margin-top: 100vh;
+}

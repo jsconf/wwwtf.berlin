@@ -1,0 +1,22 @@
+body {
+  background-color: #fff;
+  color: $color-gray-dark;
+  font-family: $font-regular;
+  font-size: 1rem;
+}
+
+a {
+  color: $color-blue;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+
+  &:hover {
+    color: rgba($color-blue, .65);
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-medium;
+}

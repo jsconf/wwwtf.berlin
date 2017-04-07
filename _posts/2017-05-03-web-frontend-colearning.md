@@ -3,7 +3,7 @@ layout: post
 title:  "OpenTechSchool: Web Frontend Co-Learning"
 date:   2017-05-03
 venue: "Co.Up Coworking"
-ticket: "free, please RSVP"
+ticket: "rsvp"
 time: "7:30 PM"
 href: "https://www.meetup.com/opentechschool-berlin/events/236518177/"
 ---

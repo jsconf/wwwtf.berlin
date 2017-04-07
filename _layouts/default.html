@@ -3,13 +3,10 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main class="page-content">
-      <div class="wrap">
-        <div class="pull-up-content {{ page.class }}">
-          {{ content }}
-        </div>
-      </div>
-    </main>
+    {% include sprite.svg %}
+
+    {{ content }}
+
     {% include footer.html %}
   </body>
 </html>

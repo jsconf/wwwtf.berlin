@@ -1,0 +1,14 @@
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 5rem 0 2rem;
+}
+
+.events__item {
+  border-bottom: 2px solid $color-yellow;
+  padding: 1rem;
+
+  &:hover {
+    background-color: $color-gray-light;
+  }
+}

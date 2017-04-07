@@ -1,0 +1,51 @@
+.nav-container {
+  display: none;
+
+  @media screen and (min-width: 40rem) {
+    display: block;
+  }
+}
+
+.nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  font-size: .875rem;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__item {
+  margin-left: .5rem;
+}
+
+.nav__link {
+  border: 2px solid transparent;
+  color: #fff;
+  display: block;
+  padding: .5rem .75rem;
+  transition: color .2s ease-in-out;
+
+  &:hover {
+    color: rgba(#fff, .85);
+  }
+
+  &:active {
+    color: rgba(#fff, .7);
+  }
+}
+
+.nav__link--featured {
+  border-color: $color-yellow;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.nav--footer {
+  display: none;
+
+  @include medium {
+    display: flex;
+  }
+}

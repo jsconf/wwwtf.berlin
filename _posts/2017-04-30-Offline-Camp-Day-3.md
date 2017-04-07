@@ -3,7 +3,7 @@ layout: post
 title:  "Offline Camp Berlin - Day 3"
 date:   2017-04-30
 venue: "Schloss Blankensee"
-ticket: "Sold Out"
+ticket: "sold-out"
 time: "all day"
 href: "http://offlinefirst.org/camp/"
 ---

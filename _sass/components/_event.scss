@@ -1,0 +1,146 @@
+.event {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: $font-medium;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.event__day,
+.event__date,
+.event__name {
+  font-size: 1.25rem;
+}
+
+.event__day {
+  display: none;
+
+  @include medium {
+    display: block;
+    width: 15%;
+  }
+
+  @include wide {
+    width: 10%;
+  }
+}
+
+.event__date {
+  position: relative;
+  white-space: nowrap;
+  width: 6rem;
+
+  @include wide {
+    width: 15%;
+  }
+}
+
+.event__duration,
+.event__link {
+  color: $color-gray;
+  font-size: .875rem;
+}
+
+.event__details {
+  flex-grow: 1;
+  width: 55%;
+
+  @include wide {
+    margin-right: 1rem;
+  }
+}
+
+.event__name {
+  margin: 0;
+}
+
+.event__name-link {
+  color: $color-gray-dark;
+}
+
+.event__info {
+  color: $color-gray;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+
+  @include wide {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.event__link {
+  @include medium {
+    margin-right: 1.5rem;
+  }
+}
+
+a.event__link:hover {
+  color: darken($color-gray, 10%);
+}
+
+.event__attendance {
+  display: none;
+  white-space: nowrap;
+
+  @include medium {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    display: block;
+    text-align: center;
+    width: 20%;
+  }
+
+  @include wide {
+    width: 15%;
+  }
+}
+
+.event__attendance--small {
+  bottom: 0;
+  display: block;
+  font-size: .875rem;
+  left: 0;
+  line-height: 1.7;
+  position: absolute;
+
+  @include medium {
+    display: none;
+  }
+}
+
+.event__status {
+  @include medium {
+    padding: .5rem 1rem;
+  }
+}
+
+.event__status--sold-out {
+  color: rgba($color-gray, .5);
+}
+
+.event__status--buy-ticket {
+  color: $color-blue;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+@include medium {
+  .event__status--buy-ticket:hover  {
+    background-color: $color-blue;
+    color: #fff;
+  }
+}

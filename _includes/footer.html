@@ -1,34 +1,29 @@
-<footer class="page_footer">
-  <div class="wrap">
-    <span class="heart-wrap">View the code on <a href="https://github.com/janl/wwwtf.berlin">GitHub</a>. Follow us on <a href="https://twitter.com/wwwtfberlin">Twitter</a>.
-      <br>
-      From the community for the community, with <span class="heart"></span></span>
+<footer class="box box--footer">
+  <div>
+    From the community for the community with
+    <svg class="icon icon--footer icon--inline icon--small" alt="<3">
+      <use xlink:href="#icon-heart"></use>
+    </svg>
   </div>
+  <nav>
+    <ul class="nav nav--footer">
+      <li class="nav__item">
+        <a href="https://github.com/{{ site.github_repo }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav__link">
+          <svg class="icon icon--nav">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </footer>
-
-<script type="text/javascript">
-  WebFontConfig = {
-    google: { families: [ 'PT+Sans+Narrow:400,700:latin' ] }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-</script>
-
-<script>
-
-$( "a.eventlist-element__expand, a.eventlist-element__collapse" ).click(function(event) {
-  event.preventDefault();
-  history.pushState({}, document.title, this.href);
-  $(this).closest('.eventlist-element__content').toggleClass('open');
-});
-</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,5 +33,4 @@ $( "a.eventlist-element__expand, a.eventlist-element__collapse" ).click(function
 
   ga('create', 'UA-54554818-1', 'auto');
   ga('send', 'pageview');
-
 </script>
