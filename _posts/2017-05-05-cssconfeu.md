@@ -4,6 +4,7 @@ title:  "CSSconf EU"
 date:   2017-05-05
 venue: "Arena"
 ticket: "buy"
+ticket_href: "https://ti.to/cssconfeu/cssconfeu-2017"
 time: "all day"
 href: "http://2017.cssconf.eu/"
 ---
