@@ -3,7 +3,8 @@ layout: post
 title: "GraphQL-Europe Conference"
 date: 2017-05-21
 venue: "nhow Berlin"
-ticket: "https://graphql-europe-2017.eventbrite.com/#tickets"
+ticket: "buy"
+ticket_href: "https://graphql-europe-2017.eventbrite.com/#tickets"
 time: "all day"
 href: "https://graphql-europe.org"
 ---
