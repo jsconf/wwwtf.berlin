@@ -9,6 +9,9 @@
     <a href="{{ post.href }}" class="event__status event__status--buy-ticket">RSVP</a>
   {% endif %}
   {% if post.ticket == 'buy' %}
-    <a href="{{ post.href }}" class="event__status event__status--buy-ticket">Buy Ticket</a>
+    <a href="{% if post.ticket_href %}{{ post.ticket_href }}{% else %}{{ post.href }}{% endif %}"
+       class="event__status event__status--buy-ticket">
+       Buy Ticket
+    </a>
   {% endif %}
 </div>
