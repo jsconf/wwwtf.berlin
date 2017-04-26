@@ -3,7 +3,7 @@ layout: post
 title:  "Ruby Usergroup Berlin May Meetup"
 date:   2017-05-04
 venue: "Babbel"
-ticket: "rsvp"
+ticket: "free"
 time: "7:30 PM"
 href: "http://www.rug-b.de/events/may-meetup-2017"
 ---
