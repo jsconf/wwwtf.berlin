@@ -161,10 +161,10 @@ A [list of some great coffee places](https://foursquare.com/user/79085/list/coff
 
 Here are a few more lists that might be of interest to you
 
-* [Favourite restaurants](https://foursquare.com/mrgnrdrck/list/favourite-restaurants)
-* [Japanese food in Berlin](https://foursquare.com/mrgnrdrck/list/japanese-food-in-berlin)
-* [Korean food in Berlin](https://foursquare.com/mrgnrdrck/list/korean-food-in-berlin)
-* [Chinese food in Berlin](https://foursquare.com/mrgnrdrck/list/chinese-food-in-berlin)
+* [Favourite restaurants](https://foursquare.com/user/79085/list/favourite-restaurants)
+* [Japanese food in Berlin](https://foursquare.com/user/79085/list/japanese-food-in-berlin)
+* [Korean food in Berlin](https://foursquare.com/user/79085/list/korean-food-in-berlin)
+* [Chinese food in Berlin](https://foursquare.com/user/79085/list/chinese-food-in-berlin)
 * [Berlin bars](https://foursquare.com/user/79085/list/berlin-bars)
 
 The above foursquare lists and article are some awesome tips, tricks and places curated and recommended by the amazing <a href="https://twitter.com/mrgnrdrck/">@mrgnrdrck</a>.
