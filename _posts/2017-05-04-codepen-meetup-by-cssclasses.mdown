@@ -2,8 +2,8 @@
 layout: post
 title:  "CodePen Meetup hosted by CSSclasses"
 date:   2017-05-04
-venue: "co.up Coworking Space"
-ticket: "rsvp"
+venue: "Amazon Development Center"
+ticket: "free"
 time: "7:30 PM"
 href: "https://nvite.com/CodePenMeetup/dwwe24"
 ---
