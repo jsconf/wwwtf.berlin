@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Eat, drink, be nerdy - WhatTheFest 2017"
-date: 2017-05-03
-venue: "Salt'n Bone"
+title:  "Fronteers Conference Workshops"
+date:   2017-10-04
+venue: "TBD"
 ticket: "buy"
-time: "19:00"
-href: "https://eat-drink-be-nerdy-whatthefest-2017.eventbrite.com"
+ticket_href: "https://tickets.fronteers.nl/"
+time: "all day"
+href: "http://fronteersconf.org/"
 ---
 <!-- fill in the URL of your event host page if you haven't enough information for a detail page, so the event link won't point on the detail page at all -->

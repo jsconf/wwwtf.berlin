@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "JSConf EU Day 1"
-date:   2017-05-06
-venue: "Arena"
+title:  "Fronteers Conference Day 2"
+date:   2017-10-06
+venue: "Pathé Tuschinski theatre"
 ticket: "buy"
-ticket_href: "https://ti.to/jsconfeu/jsconfeu2017"
+ticket_href: "https://tickets.fronteers.nl/"
 time: "all day"
-href: "http://2017.jsconf.eu/"
+href: "http://fronteersconf.org/"
 ---
 <!-- fill in the URL of your event host page if you haven't enough information for a detail page, so the event link won't point on the detail page at all -->

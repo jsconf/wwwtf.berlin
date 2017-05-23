@@ -11,7 +11,7 @@ We welcome workshops, social events, charitable activities, hackathons, doc spri
 
 There are two ways to get your event on our list.
 
-You can [create an issue](https://github.com/janl/wwwtf.berlin/issues) with the details of your event. Or, if you have experience doing so, you can [submit a pull request](https://github.com/janl/wwwtf.berlin#create-an-event).
+You can [create an issue](https://github.com/pverbeek/wwwtf.amsterdam/issues) with the details of your event. Or, if you have experience doing so, you can [submit a pull request](https://github.com/pverbeek/wwwtf.amsterdam#create-an-event).
 
 Just remember to provide all important details, including the **date** and **times**, **location**, and a **link** to your event website. Also remember to include the **names of all organizers**, **cost** (if applicable), and the **maximum number of registrants** in the comments.
 

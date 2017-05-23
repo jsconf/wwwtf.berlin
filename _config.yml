@@ -1,8 +1,8 @@
 # Site settings
-title: wwwtf.berlin – Berlin, May 2017
-description: "wwwtf.berlin is a collection of fine events around the web, happening in Berlin in May 2017"
+title: wwwtf.amsterdam – Amsterdam, October 2017
+description: "wwwtf.amsterdam is a collection of fine events around the web, happening in Amsterdam in October 2017"
 baseurl: ""
-url: "http://wwwtf.berlin"
+url: "http://wwwtf.amsterddam"
 exclude:
   - README.md
 
@@ -11,5 +11,5 @@ markdown: kramdown
 permalink: pretty
 
 # Site data
-github_repo: "janl/wwwtf.berlin"
-twitter_username: wwwtfberlin
+github_repo: "pverbeek/wwwtf.amsterdam"
+twitter_username: wwwtfamsterdam
