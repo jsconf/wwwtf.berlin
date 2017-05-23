@@ -3,8 +3,6 @@ wwwtf.amsterdam
 
 The schedule page for wwwtf.amsterdam
 
-SVG Berlin Skyline by wasat on http://www.openclipart.org/detail/27938
-
 Setup
 =====
 
