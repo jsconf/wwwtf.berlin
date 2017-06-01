@@ -26,7 +26,11 @@ title: wwwtf.amsterdam
             </div>
             <div class="event__details">
               <h2 class="event__name">
-                <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a>
+                {% if post.href %}
+                  <a href="{{ post.href }}" class="event__name-link">{{ post.title }}</a
+                {% else %}
+                  {{ post.title }}
+                {% endif %}
               </h2>
               <ul class="event__info">
                 <li>
@@ -34,9 +38,14 @@ title: wwwtf.amsterdam
                     <svg class="icon icon--inline icon--event-info icon--small">
                       <use xlink:href="#icon-marker"></use>
                     </svg>
-                    {{ post.venue }}
+                    {% if post.venue %}
+                      {{ post.venue }}
+                    {% else %}
+                      TBD
+                    {% endif %}
                   </span>
                 </li>
+                {% if post.href %}
                 <li>
                   <a href="{{ post.href }}" class="event__link event__link--website">
                     <svg class="icon icon--inline icon--event-info icon--small icon--globe">
@@ -45,9 +54,10 @@ title: wwwtf.amsterdam
                     Website
                   </a>
                 </li>
+                {% endif %}
                 {% if post.twitter %}
                   <li>
-                    <a href="#" class="event__link event__link--twitter">
+                    <a href="https://twitter.com/{{ post.twitter }}" class="event__link event__link--twitter">
                       <svg class="icon icon--inline icon--event-info icon--small icon--globe">
                         <use xlink:href="#icon-twitter"></use>
                       </svg>
