@@ -33,5 +33,4 @@ The following points are necessary:
 * ticket: "ticket status - RSVP, Register, Sold out, etc."
 * time: "hours:minutesam/pm"
 * href: "link to the page of the event host"
-
-The href is crucial as long as the detail pages on wwwtf.amsterdam aren't finished.
+* twitter: "Twitter handle, without @"
