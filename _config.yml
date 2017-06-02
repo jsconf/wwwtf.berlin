@@ -2,7 +2,8 @@
 title: wwwtf.amsterdam – Amsterdam, October 2017
 description: "wwwtf.amsterdam is a collection of fine events around the web, happening in Amsterdam in October 2017"
 baseurl: ""
-url: "http://wwwtf.amsterddam"
+url: https://wwwtf.amsterdam   # with the https protocol
+enforce_ssl: wwwtf.amsterdam   # without any protocol
 exclude:
   - README.md
 
