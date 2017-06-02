@@ -5,7 +5,7 @@ title: About WWWTF Amsterdam
 
 ## WTF is WWWTF?
 WhatTheFest Amsterdam is a series of events around web development and design inspired
-by <a href="https://wwwtf.berlin">wwwtf.berlin</a>! 
+by <a href="http://wwwtf.berlin">wwwtf.berlin</a>! 
 
 ## WWWho can join?
 Any events happening in September/October 2017 around web development and technologies
