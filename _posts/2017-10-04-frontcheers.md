@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Frontcheers 🎉"
+title:  "FrontCheers 🎉"
 date:   2017-10-04
 venue: "TBD"
 time: "evening"
