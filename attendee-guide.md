@@ -29,7 +29,7 @@ Public transportation is pretty good in The Netherlands, you can easily get to m
 
 ### Public transportation – OV-Chipkaart
 
-In The Netherlands, they use a chip card in public transportation. Locals use a card that you can top up, but it costs you €7,50 once and always needs to have at least €20,- on the card to be able to travel with the train.
+The Netherlands uses a public transport chip card system. Locals use a card that you can top up, but it costs you €7,50 once and always needs to have at least €20,- on the card to be able to travel with the train.
 
 If you don't travel a lot with public transport in The Netherlands, you can buy a single-use chip cards. It's a bit more expensive, but easier to use.
 
