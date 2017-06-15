@@ -28,3 +28,17 @@ this.addEventListener('fetch', function (event) {
     return response.clone();
   }));
 });
+
+this.addEventListener('activate', function (event) {
+  var cacheWhitelist = [version];
+
+  event.waitUntil(
+    caches.keys().then(function (keyList) {
+      return Promise.all(keyList.map(function (key) {
+        if (cacheWhitelist.indexOf(key) === -1) {
+          return caches.delete(key);
+        }
+      }));
+    })
+  );
+});
