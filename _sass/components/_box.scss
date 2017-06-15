@@ -76,4 +76,17 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
+
+  .box__link {
+    color: #fff;
+
+    &:hover {
+      color: rgba(#fff, .85);
+    }
+
+    &:active {
+      color: rgba(#fff, .7);
+    }
+  }
 }
