@@ -3,7 +3,7 @@ layout: post
 title:  "Fronteers Conference Day 2"
 date:   2017-10-06
 venue: "Pathé Tuschinski theatre"
-ticket: "sold out"
+ticket: "sold-out"
 time: "all day"
 href: "http://fronteersconf.org/"
 twitter: FronteersConf
