@@ -24,13 +24,18 @@ To create an event you just have to add a new markdown file to the _posts folder
 
 year-month-day-nameOfTheEvent.md
 
-The following points are necessary:
+Use the following format:
 
-* layout: post
-* title: "name of the event"
-* date: year-month-day
-* venue: "name of the venue"
-* ticket: "ticket status - RSVP, Register, Sold out, etc."
-* time: "hours:minutesam/pm"
-* href: "link to the page of the event host"
-* twitter: "Twitter handle, without @"
+```
+---
+layout:      post
+title:       "My lovely meetup"
+date:        2017-30-09
+venue:       "The Watchtower"
+time:        "3:14pm" <!-- or a string, like "evening" -->
+href:        "https://meetup.of.awesomeness"
+ticket:      "buy" <!-- or "sold-out", "rsvp", "free" -->
+ticket_href: "https://meetup.of.awesomeness/tickets"
+twitter:     "SuperDuperEvent"
+---
+```
