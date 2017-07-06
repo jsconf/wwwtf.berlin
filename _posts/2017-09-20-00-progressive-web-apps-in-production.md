@@ -2,7 +2,7 @@
 layout: post
 title:  "Progressive Web Apps in Production"
 date:   2017-09-20
-venue: "Rijnburgstraat 9 - 11, Amsterdam"
+venue: "De Voorhoede, Amsterdam"
 time: "evening"
 href: "https://www.meetup.com/nl-NL/Front-end-Forward/events/240636712/?eventId=240636712"
 twitter: devoorhoede
