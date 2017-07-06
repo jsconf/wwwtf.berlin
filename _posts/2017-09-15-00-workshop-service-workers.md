@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Workshop service workers"
+title:  "Workshop Service Workers"
 date:   2017-09-15
 venue: "TBD, Utrecht"
 time: "all day"
