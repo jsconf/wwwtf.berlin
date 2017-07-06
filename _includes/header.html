@@ -1,22 +1,23 @@
 <header class="box box--header">
-  <a href="/">
+  <a href="{{ "/" | prepend: site.baseurl }}">
     <svg class="icon icon--logo">
+      <title>wwwtf.amsterdam</title>
       <use xlink:href="#icon-logo"></use>
     </svg>
   </a>
   <nav class="nav-container">
     <ul class="nav nav--header">
       <li class="nav__item">
-        <a href="/#events" class="nav__link">Events</a>
+        <a href="{{ "/#events" | prepend: site.baseurl }}" class="nav__link">Events</a>
       </li>
       <li class="nav__item">
-        <a href="/about/" class="nav__link">About</a>
+        <a href="{{ "/about/" | prepend: site.baseurl }}" class="nav__link">About</a>
       </li>
       <li class="nav__item">
-        <a href="/attendee-guide/" class="nav__link">Attendee Guide</a>
+        <a href="{{ "/attendee-guide/" | prepend: site.baseurl }}" class="nav__link">Attendee Guide</a>
       </li>
       <li class="nav__item">
-        <a href="/add-your-event/" class="nav__link nav__link--featured">
+        <a href="{{ "/add-your-event/" | prepend: site.baseurl }}" class="nav__link nav__link--featured">
           <svg class="icon icon--plus">
             <use xlink:href="#icon-plus"></use>
           </svg>
