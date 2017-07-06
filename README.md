@@ -1,9 +1,7 @@
-wwwtf.berlin
+wwwtf.amsterdam
 =============
 
-The schedule page for wwwtf.berlin
-
-SVG Berlin Skyline by wasat on http://www.openclipart.org/detail/27938
+The schedule page for wwwtf.amsterdam
 
 Setup
 =====
@@ -11,8 +9,8 @@ Setup
 The site uses [jekyll](http://jekyllrb.com), to run the site do the following in your
 terminal:
 
-* `git clone git@github.com:janl/wwwtf.berlin.git`
-* `cd wwwtf.berlin`
+* `git clone git@github.com:pverbeek/wwwtf.amsterdam.git`
+* `cd wwwtf.amsterdam`
 * `gem install bundler`
 * `bundle install`
 * `bundle exec jekyll serve --watch`
@@ -26,14 +24,18 @@ To create an event you just have to add a new markdown file to the _posts folder
 
 year-month-day-nameOfTheEvent.md
 
-The following points are necessary:
+Use the following format:
 
-* layout: post
-* title: "name of the event"
-* date: year-month-day
-* venue: "name of the venue"
-* ticket: "ticket status - RSVP, Register, Sold out, etc."
-* time: "hours:minutesam/pm"
-* href: "link to the page of the event host"
-
-The href is crucial as long as the detail pages on wwwtf.berlin aren't finished.
+```
+---
+layout:      post
+title:       "My lovely meetup"
+date:        2017-30-09
+venue:       "The Watchtower"
+time:        "3:14pm" <!-- or a string, like "evening" -->
+href:        "https://meetup.of.awesomeness"
+ticket:      "buy" <!-- or "sold-out", "rsvp", "free" -->
+ticket_href: "https://meetup.of.awesomeness/tickets"
+twitter:     "SuperDuperEvent"
+---
+```

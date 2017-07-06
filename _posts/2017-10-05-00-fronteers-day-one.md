@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "GraphQL-Europe Conference"
-date: 2017-05-21
-venue: "nhow Berlin"
-ticket: "buy"
-ticket_href: "https://graphql-europe-2017.eventbrite.com/#tickets"
+title:  "Fronteers Conference Day 1"
+date:   2017-10-05
+venue: "Pathé Tuschinski theatre"
+ticket: "sold-out"
 time: "all day"
-href: "https://graphql-europe.org"
+href: "http://fronteersconf.org/"
+twitter: "FronteersConf"
 ---
 <!-- fill in the URL of your event host page if you haven't enough information for a detail page, so the event link won't point on the detail page at all -->
