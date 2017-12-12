@@ -6,7 +6,7 @@ title: Welcome to Berlin
 ## Accommodation
 
 Due to high demand, (affordable) accommodation in the city is scarce for WWWTF.
-Here are some tips on finding/offering accommodation in Berlin, courtesy of <a href="http://2017.cssconf.eu">CSSconf EU</a>.
+Here are some tips on finding/offering accommodation in Berlin, courtesy of <a href="http://2018.cssconf.eu">CSSconf EU</a>.
 
 ### Team up with other attendees
 
@@ -51,13 +51,12 @@ There are also taxis. They're reasonably priced (compared to Scandinavia at leas
 ### From TXL
 From Tegel Airport, the easiest way to get to the city center is to take the "TXL" bus route that goes directly there. You'll need an AB ticket, which will cost €2.70 and is valid for the rest of your journey inside the AB zone, including transfers.
 
-A taxi, should be about €25 to Alexanderplatz.
+A taxi should be about €25 to Alexanderplatz.
 
 ### From SXF
 From Schönefeld Airport, you have the option of two different train connections. We recommend taking the regional train (not the S-bahn). You'll need an ABC ticket, which will cost €3.30 and is valid for the rest of your one-way journey inside the ABC zone, including transfers to other transfer methods.
 
 A taxi should be about €35 to Alexanderplatz.
-
 
 **Again, don't forget to validate your ticket**
 

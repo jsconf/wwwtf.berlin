@@ -1,6 +1,6 @@
 # Site settings
-title: wwwtf.berlin – Berlin, May 2017
-description: "wwwtf.berlin is a collection of fine events around the web, happening in Berlin in May 2017"
+title: wwwtf.berlin – Berlin, May-June 2018
+description: "wwwtf.berlin is a collection of fine events around the web, happening in Berlin in May and June 2018"
 baseurl: ""
 url: "http://wwwtf.berlin"
 exclude:
@@ -13,3 +13,4 @@ permalink: pretty
 # Site data
 github_repo: "janl/wwwtf.berlin"
 twitter_username: wwwtfberlin
+future: true
