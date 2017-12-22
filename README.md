@@ -15,7 +15,7 @@ terminal:
 * `cd wwwtf.berlin`
 * `gem install bundler`
 * `bundle install`
-* `bundle exec jekyll serve --watch`
+* `bundle exec jekyll serve`
 
 The site should then be available on [http://localhost:4000](http://localhost:4000)
 
@@ -35,5 +35,3 @@ The following points are necessary:
 * ticket: "ticket status - RSVP, Register, Sold out, etc."
 * time: "hours:minutesam/pm"
 * href: "link to the page of the event host"
-
-The href is crucial as long as the detail pages on wwwtf.berlin aren't finished.
