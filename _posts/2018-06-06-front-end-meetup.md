@@ -5,5 +5,5 @@ date: 2018-06-06
 venue: "co.up coworking space"
 ticket: "Free"
 time: "7:30pm"
-href: "https://www.meetup.com/opentechschool-berlin/events/250849295/"
+href: "https://www.meetup.com/opentechschool-berlin/events/250423447/"
 ---
