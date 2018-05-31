@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JSConf EU Day 1"
-date: 2018-06-02
+date: 2018-06-02 08:00:00 UTC+2
 venue: "Arena Berlin"
 ticket: "buy"
 ticket_href: "https://ti.to/jsconfeu/jsconf-eu-2018"

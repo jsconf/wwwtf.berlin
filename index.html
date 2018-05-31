@@ -10,7 +10,9 @@ title: wwwtf.berlin
     <ol class="events">
       {% for post in site.posts reversed %}
         <li class="events__item">
-          <article class="event">
+          {% capture nowtime %}{{site.time | date: '%s'}}{% endcapture %}
+          {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+          <article class="event{% if nowtime > posttime %} event__past{% endif %}">
             <div class="event__day">
               {{ post.date | date: "%a" }}
             </div>

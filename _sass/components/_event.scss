@@ -138,6 +138,16 @@ a.event__link:hover {
   }
 }
 
+.event__past,
+.event__past .event__name-link {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.event__past .event__status {
+  display: none;
+}
+
 @include medium {
   .event__status--buy-ticket:hover  {
     background-color: $color-blue;
