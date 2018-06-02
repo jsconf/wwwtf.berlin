@@ -6,5 +6,5 @@ venue: "Soundcloud Berlin"
 ticket: "rsvp"
 ticket_href: "https://codebar.io/workshops/784"
 time: "6:30pm"
-href: "https://codebar.io/"
+href: "https://codebar.io/workshops/784"
 ---
