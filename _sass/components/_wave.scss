@@ -1,0 +1,28 @@
+.wave {
+  $waveDuration: 0.8;
+  $waveDelay: 0.05;
+  $waveRatio: round($waveDuration/$waveDelay);
+
+  .letter {
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+    animation: textWave #{$waveDuration}s infinite cubic-bezier(0.42, 0.0, 0.58, 1.0);
+
+    @for $i from 1 through ($waveRatio + 1) {
+      &:nth-child(#{$waveRatio}n + #{$i}) {
+        animation-delay: ($i * $waveDelay) + s;
+      }
+    }
+  }
+}
+
+@keyframes textWave {
+  25% {
+    transform: translate3d(0px, -0.7vw, 0px);
+  }
+
+  75% {
+    transform: translate3d(0px, 0.7vw, 0px);
+  }
+}

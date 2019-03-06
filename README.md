@@ -1,9 +1,7 @@
 wwwtf.berlin
 =============
 
-The schedule page for wwwtf.berlin
-
-SVG Berlin Skyline by wasat on http://www.openclipart.org/detail/27938
+The website for wwwtf.berlin
 
 Setup
 =====
@@ -11,7 +9,7 @@ Setup
 The site uses [jekyll](http://jekyllrb.com), to run the site do the following in your
 terminal:
 
-* `git clone git@github.com:janl/wwwtf.berlin.git`
+* `git clone git@github.com:jsconf/wwwtf.berlin`
 * `cd wwwtf.berlin`
 * `gem install bundler`
 * `bundle install`
