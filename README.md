@@ -1,7 +1,7 @@
 wwwtf.berlin
 =============
 
-The website for wwwtf.berlin
+The website for https://wwwtf.berlin, a celebration of the web community in Berlin. If you're here, you might want to add your own event to our list! If so, feel free to read on and get started. If you need any help or if anything is unclear to you, you can always open an [issue](https://github.com/jsconf/wwwtf.berlin/issues/new).
 
 Setup
 =====
