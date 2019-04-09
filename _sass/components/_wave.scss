@@ -7,7 +7,7 @@
     display: inline-block;
     transform: translate3d(0, 0, 0);
     will-change: transform;
-    animation: textWave #{$waveDuration}s infinite cubic-bezier(0.42, 0.0, 0.58, 1.0);
+    animation: textWave .8s infinite alternate cubic-bezier(0.5, 0, 0.5, 1);
 
     @for $i from 1 through ($waveRatio + 1) {
       &:nth-child(#{$waveRatio}n + #{$i}) {
@@ -18,11 +18,6 @@
 }
 
 @keyframes textWave {
-  25% {
-    transform: translate3d(0px, -0.7vw, 0px);
-  }
-
-  75% {
-    transform: translate3d(0px, 0.7vw, 0px);
-  }
+  from { transform: translateY(-0.7vw) }
+  to { transform: translateY(0.7vw) }
 }
