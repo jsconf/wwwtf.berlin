@@ -24,17 +24,16 @@ Create an event
 
 To create an event you just have to add a new markdown file to the _posts folder:
 
-year-month-day-nameOfTheEvent.md
+`year-month-day-name-of-the-event.md`
 
 The following points are necessary:
 
-* layout: post
-* title: "name of the event"
-* date: year-month-day
-* venue: "name of the venue"
-* ticket: "ticket status - RSVP, Register, Sold out, etc."
-* time: "hours:minutesam/pm"
-* href: "link to the page of the event host"
+* `layout: post`
+* `title: "name of the event"`
+* `date: year-month-day 24-hr-time +timezone`
+* `venue: "name of the venue"`
+* `ticket: "ticket status (see below)"`
+* `href: "link to the page of the event or the event host"`
 
 Here's a simple copy-and-paste:
 
