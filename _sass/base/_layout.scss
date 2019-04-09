@@ -14,3 +14,12 @@
   vertical-align: middle;
   margin-left: 10px;
 }
+
+.more_links {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.more_links a:not(:first-child) {
+  margin-left: 30px;
+}
