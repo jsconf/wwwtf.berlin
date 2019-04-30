@@ -10,7 +10,7 @@ The site uses [jekyll](http://jekyllrb.com), to run the site do the following in
 terminal:
 
 ```sh
-git clone git@github.com:jsconf/wwwtf.berlin
+git clone https://github.com/jsconf/wwwtf.berlin
 cd wwwtf.berlin
 gem install bundler
 bundle install
@@ -24,7 +24,9 @@ Create an event
 
 To create an event you just have to add a new markdown file to the _posts folder:
 
-`year-month-day-name-of-the-event.md`
+```
+year-month-day-name-of-the-event.md
+```
 
 The following points are necessary:
 
