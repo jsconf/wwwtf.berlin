@@ -64,7 +64,6 @@ ticket: free
 
 ```yaml
 ticket: rsvp
-ticket_href: https://meetup.com/blahblah
 ```
 
 #### `sold-out`
