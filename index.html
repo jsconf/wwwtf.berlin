@@ -9,7 +9,7 @@ title: WWWTF X Berlin
   <div class="container"> 
     <ol class="events">
       {% for post in site.posts reversed %}
-        <li class="events__item">
+        <li class="events__item {% if post.highlight %}event__highlight{% endif %}">
           {% capture nowtime %}{{site.time | date: '%s'}}{% endcapture %}
           {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
           <article class="event{% if nowtime > posttime %} event__past{% endif %}">

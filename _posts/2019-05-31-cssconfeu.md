@@ -7,4 +7,5 @@ ticket: buy
 ticket_href: https://ti.to/cssconfeu/cssconfeu-2019/
 time: all day
 href: https://2019.cssconf.eu
+highlight: true
 ---

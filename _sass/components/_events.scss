@@ -11,4 +11,9 @@
   &:hover {
     background-color: $color-gray-light;
   }
+
+  
+  &.event__highlight:hover {
+    background-color: lighten(#ffe90a, 36%);
+  }
 }
