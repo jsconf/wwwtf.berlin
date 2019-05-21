@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EU Elections (Rest)
+title: EU Elections 🇪🇺 (Rest)
 date: 2019-05-26
 venue: EU
 ticket: free

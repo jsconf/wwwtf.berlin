@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EU Elections (Ireland, Czech Republic 1/2)
+title: EU Elections 🇪🇺 (Ireland, Czech Republic 1/2)
 date: 2019-05-24
 venue: EU
 ticket: free

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EU Elections (UK, Netherlands)
+title: EU Elections 🇪🇺 (UK, Netherlands)
 date: 2019-05-23
 venue: EU
 ticket: free

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EU Elections (Czech Republic 2/2, France 1/2, Malta, Latvia, Slovakia)
+title: EU Elections 🇪🇺 (Czech Republic 2/2, France 1/2, Malta, Latvia, Slovakia)
 date: 2019-05-25
 venue: EU
 ticket: free
